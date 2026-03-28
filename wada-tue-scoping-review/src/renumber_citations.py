@@ -65,14 +65,17 @@ for old in order:
 
 # ===== STEP 2: Replacement function =====
 def replace_cites(text, mapping, valid):
-    """Replace citation numbers in parenthetical references."""
+    """Replace citation numbers in both half-width () and full-width （） parenthetical references."""
     def repl(m):
-        nums = [int(x.strip()) for x in m.group(1).split(',')]
+        open_paren = m.group(1)
+        nums_str = m.group(2)
+        close_paren = m.group(3)
+        nums = [int(x.strip()) for x in nums_str.split(',')]
         if all(n in valid for n in nums):
             new_nums = sorted(mapping[n] for n in nums)
-            return '(' + ', '.join(str(n) for n in new_nums) + ')'
+            return open_paren + ', '.join(str(n) for n in new_nums) + close_paren
         return m.group(0)
-    return re.sub(r'\((\d+(?:,\s*\d+)*)\)', repl, text)
+    return re.sub(r'([（(])(\d+(?:,\s*\d+)*)([）)])', repl, text)
 
 # ===== STEP 3: Update scj_en_content.py =====
 with open('/home/ubuntu/scj_en_content.py', 'r') as f:
@@ -130,7 +133,7 @@ with open('/home/ubuntu/scj_jp_content.py', 'r') as f:
 
 jp_text = replace_cites(jp_text, mapping, valid)
 
-with open('/home/ubuntu/scj_jp_content.py', 'w') as f:
+with open('/home/ubuntu/scj_jp_content.py', 'w', encoding='utf-8') as f:
     f.write(jp_text)
 print("Updated: scj_jp_content.py")
 
