@@ -367,3 +367,371 @@ TUE承認基準の一つである「禁止物質の使用がパフォーマン�
 ---
 
 *本レポートは公開情報に基づく調査であり、医学的助言を構成するものではありません。個別のケースについては、スポーツ医学専門医およびアンチ・ドーピング機関にご相談ください。*
+
+---
+
+# English Translation
+
+---
+
+# Investigation report on the discrepancy between the WADA TUE system and the latest clinical guidelines
+
+**Creation date: March 27, 2026**
+
+---
+
+## Executive Summary
+
+The World Anti-Doping Agency's (WADA) Therapeutic Use Exemption (TUE) system is an important framework for athletes to use banned substances for therapeutic purposes. However, due to rapid advances in clinical medicine, there are cases in multiple disease areas where the first-line drugs recommended in the latest clinical guidelines conflict with the WADA Prohibited List, or where the TUE guidelines do not sufficiently reflect the latest evidence.
+
+This report systematically identifies the gaps that exist between the WADA TUE system and the latest clinical practice guidelines in eight areas: **asthma, ADHD, type 2 diabetes, male hypogonadism, glucocorticoid use, GLP-1 receptor agonists, cardiovascular disease, and PCOS**.
+
+---
+
+## Table of Contents
+
+1. [Asthma (Beta-2 agonist/inhaled steroid)] (#1-Asthma beta-2 agonist/inhaled steroid)
+2. [ADHD (Attention Deficit Hyperactivity Disorder)] (#2-ADHD Attention Deficit Hyperactivity Disorder)
+3. [Type 2 diabetes and GLP-1 receptor agonists] (#3-Type 2 diabetes and GLP-1 receptor agonists)
+4. [Male Hypogonadism (Testosterone Replacement Therapy)] (#4-Male Hypogonadism Testosterone Replacement Therapy)
+5. [Glucocorticoid] (#5-Glucocorticoid glucocorticoid)
+6. [Cardiovascular disease (diuretics/β-blockers)] (#6-Cardiovascular diseases diuretics/β-blockers)
+7. [PCOS (Polycystic Ovarian Syndrome)/Female Infertility] (#7-PCOS Polycystic Ovary Syndrome Female Infertility)
+8. [Cross-cutting issues and recommendations] (#8-Cross-cutting issues and recommendations)
+
+---
+
+## 1. Asthma (Beta-2 agonists/inhaled steroids)
+
+### WADA Current Regulations (2026 Prohibited List)
+
+| Substance | Status |
+|---|---|
+| **All β2 agonists** | **Always prohibited** (S3) |
+| Inhaled salbutamol | Exception allowed: 1600 μg or less in 24 hours (600 μg or less in 8 hours) |
+| Inhaled formoterol | Exception allowed: 54 μg or less in 24 hours (delivered dose, 36 μg or less in 12 hours) |
+| Inhaled salmeterol | Exception allowed: 200 μg or less in 24 hours (**Revised in 2026: 100 μg or less in 8 hours**) |
+| Inhaled vilanterol | Exception allowed: 25 μg or less in 24 hours |
+| β2 agonists other than the above (oral/injection) | **TUE required** |
+| Glucocorticoids (oral/injection) | **Prohibited during competition** (S9), TUE required |
+
+### GINA 2025 Guidelines Recommendations
+
+GINA (Global Initiative for Asthma) 2025 established a **paradigm shift** in asthma management:
+
+- **Track 1 (recommended)**: **ICS-formoterol used as-needed reliever** in all steps. Also used as Maintenance and Reliever Therapy (MART) in steps 3-5.
+- **Track 2 (Alternative)**: Using SABA (short-acting β2 agonist) as reliever + separate ICS-containing controller.
+- **IMPORTANT**: SABA monotherapy (salbutamol inhalation only) is **not recommended at any step**.
+
+### Gap details
+
+| Item | Gap details | Risk assessment |
+|---|---|---|
+| **Formoterol dose upper limit** | In the GINA Track 1 MART regimen, the total daily dose of formoterol may approach the WADA upper limit (54 μg delivered dose/24 h) with maintenance dose + as-needed use during acute exacerbation. Especially during the exacerbation phase, there is a risk that the clinically necessary dose will exceed the WADA threshold | **Moderate to High** |
+| **Urinary formoterol concentration threshold** | The WADA threshold (positive for urinary formoterol >40 ng/mL) may be exceeded during the high-dose phase of MART use. Athletes at risk of testing positive even at therapeutic doses | **High** |
+| **Recommendation to eliminate use of SABA alone** | WADA allows inhaled salbutamol at below threshold levels without the need for a TUE, so there remains an incentive for athletes to manage with SABA alone. However, GINA clearly does not recommend SABA alone, creating the dilemma of choosing a clinically inappropriate treatment | **Medium** |
+| **Systemic GC in severe asthma** | Short-term oral prednisolone administration during acute exacerbations is standard treatment, but is prohibited during competitions. If the washout period (3-10 days for oral GC) does not match the competition schedule, there is a risk that your TUE application will not be submitted in time | **High** |
+| **Biologics not listed** | Omalizumab, mepolizumab, dupilumab, etc. for severe asthma can be used without being listed on the prohibited list, but their status in the TUE guidelines is unclear | **Low** |
+
+### Specific scenario
+
+> **Example**: A winter athlete (cross-country skier) is diagnosed with EIB (exercise-induced bronchospasm). MART of budesonide/formoterol (200/6 μg) is prescribed based on GINA Track 1. Use twice daily as a maintenance dose + as-needed during symptoms. During winter, when training intensity is high, the total amount of formoterol used per day reached 48μg (delivered dose), close to WADA's upper limit of 54μg. Additional use on race day poses a risk of exceeding the threshold.
+
+---
+
+## 2. ADHD (Attention Deficit Hyperactivity Disorder)
+
+### WADA Current Regulations
+
+| Substance | Status |
+|---|---|
+| Amphetamines (Adderall, etc.) | **Prohibited during competition** (S6.A: Non-specific stimulants) |
+| Methylphenidate (Ritalin, Concerta, etc.) | **Prohibited during competition** (S6.B: Specific stimulants) |
+| Lisdexamfetamine (Vyvanse) | **Forbidden in competition** (S6: Stimulant) |
+| Atomoxetine (Strattera) | Not prohibited |
+| Guanfacine | Not prohibited (**clarified in 2025**) |
+
+### Latest clinical practice guidelines (2022 Australian Guidelines, NICE 2024, APA, etc.)
+
+- **First-line drugs**: Stimulants (methylphenidate or lisdexamfetamine/amphetamines)
+  - Adult ADHD: Stimulants have the highest level of evidence and the largest effect size
+  - National guidelines consistently recommend stimulants as first choice
+- **Second-line drugs**: atomoxetine, guanfacine (requires several weeks for onset of effect)
+
+### Gap details
+
+| Item | Gap details | Risk assessment |
+|---|---|---|
+| **All first-line drugs banned** | All first-line drugs recommended by all major guidelines (methylphenidate, lisdexamfetamine, amphetamine) are listed on the WADA Prohibited List. Athletes must apply for a TUE for optimal treatment | **High** |
+| **Complexity of applying for a TUE** | WADA TUE guidelines (Version 8.0, January 2026) require detailed psychological and neuropsychological evaluation, documentation of symptoms from childhood based on DSM-5, and comprehensive evaluation in case of adult diagnosis. High cost and time burden | **High** |
+| **Contradiction of prohibition only during competition** | Stimulants are prohibited only during competition (allowed during out-of-competition). However, ADHD is a 24-hour, 365-day disorder, and it is clinically inappropriate to stop taking medication just on competition days. Sudden discontinuation of long-acting drugs (such as Concerta) can lead to withdrawal symptoms and rapid deterioration of cognitive function | **High** |
+| **Difference from the increase in adult ADHD diagnoses** | Adult ADHD diagnoses have increased worldwide in recent years. Although the WADA TUE guidelines call for more rigorous scrutiny of initial diagnosis in adulthood, clinically, diagnosis in adulthood is an established medical fact | **Medium** |
+| **Insufficient efficacy of non-stimulant drugs** | One of the TUE criteria is "absence of non-prohibited alternative treatments," but atomoxetine and guanfacine are insufficiently effective in approximately 30-40% of patients. ``Non-stimulant drugs should be tried first'' delays access to optimal treatment | **Medium** |
+
+### Specific scenario
+> **Example**: A 25-year-old professional soccer player is diagnosed with ADHD in adulthood. The psychiatrist prescribed 70 mg of lisdexamfetamine (Vyvanse). It is virtually unusable during the league season (almost every weekend is ``competition time''). Switched to atomoxetine, but the effect was insufficient, resulting in decreased concentration and team performance. Childhood records, psychological tests, etc. are required to apply for a TUE, but it is difficult to collect past medical records because the patient has a history of moving overseas.
+
+---
+
+## 3. Type 2 diabetes and GLP-1 receptor agonists
+
+### WADA Current Regulations
+
+| Substance | Status |
+|---|---|
+| Insulin | **Always prohibited** (S4: Hormones/metabolism regulators), TUE required |
+| GLP-1 receptor agonists (semaglutide, liraglutide, tirzepatide, etc.) | **Currently not prohibited** |
+| Semaglutide/Tirzepatide | **Listed in the monitoring program from 2024** (Continued monitoring in 2026) |
+| SGLT2 inhibitors (empagliflozin, etc.) | Not prohibited |
+| Metformin | Not prohibited |
+
+### ADA (American Diabetes Association) Standards of Care 2025 Recommendations
+
+The 2025 ADA Guidelines significantly revise the drug treatment algorithm for type 2 diabetes:
+- **Patients with high cardiovascular risk**: In addition to metformin, **GLP-1 receptor agonists** or SGLT2 inhibitors are recommended early on.
+- **Emphasis on weight management**: Policy to actively utilize the weight loss effects of GLP-1 receptor agonists
+- **Nephroprotection**: Evaluate the renal protective effects of SGLT2 inhibitors and GLP-1 receptor agonists
+- **Insulin**: Still essential in type 1 diabetes and in advanced cases of type 2 diabetes, but GLP-1 receptor agonists should be used first if possible
+
+### Gap details
+
+| Item | Gap details | Risk assessment |
+|---|---|---|
+| **Insulin TUE burden** | Insulin is essential for life support for type 1 diabetic athletes, but it is essential to apply for a TUE. The procedures are relatively standardized, but there is an annual renewal burden | **Medium** |
+| **Risk of future ban on GLP-1 receptor agonists** | Semaglutide and tirzepatide are currently not subject to the ban, but will be included in the monitoring program from 2024. The weight-loss effect could be an advantage in weight-class sports, which could lead to it being banned in the future. However, ADA 2025 strongly recommends GLP-1 receptor agonists as standard of care for type 2 diabetes, and if banned would limit access to optimal treatment for diabetic athletes | **High (future)** |
+| **Conflict with weight class sports** | In weight class sports such as judo, wrestling, and boxing, the use of GLP-1 receptor agonists blurs the line between weight management and treatment. WADA considering creation of 'new weight management drug category' | **High (future)** |
+| **TUE Guidelines Delay** | The WADA Diabetes TUE Guidelines (Version 5.1, October 2023) only lists insulin as a prohibited substance. TUE criteria have not been established if GLP-1 receptor agonists are banned in the future | **Medium** |
+| **Combined treatment of type 2 diabetes** | ADA 2025 recommends the triple combination of GLP-1 receptor agonist + SGLT2 inhibitor + metformin in some cases, but if GLP-1 is banned, this standard treatment regimen will collapse | **High (future)** |
+
+### Specific scenario
+
+> **Example**: A 35-year-old masters swimmer with type 2 diabetes. Good blood sugar control is being achieved with metformin + semaglutide (Ozempic) based on ADA guidelines. If semaglutide is added to the prohibited list in the future, treatment will have to be changed. Switching to insulin requires a TUE and increases the risk of hypoglycemia, making it dangerous during swimming.
+
+---
+
+## 4. Male hypogonadism (testosterone replacement therapy)
+
+### WADA Current Regulations
+| Substance | Status |
+|---|---|
+| Testosterone (all preparations) | **Always prohibited** (S1: Anabolic drugs) |
+| hCG (human chorionic gonadotropin) | **Always prohibited** (S2) |
+| Clomiphene | **Always prohibited** (S4: Hormone/metabolism regulator) |
+
+### WADA TUE Guidelines Limitations
+
+The WADA TUE Guidelines (Male Hypogonadism) set out the following strict restrictions:
+
+> **"TUE should only be approved for hypogonadism of organic etiology. TUE should not be approved for androgen deficiency due to functional disorder."**
+
+**Example of organic etiology (subject to TUE approval):**
+- Klinefelter syndrome
+- Congenital anorchidism/undescended testis
+- Kallmann syndrome
+- Pituitary tumor
+- Pituitary dysfunction due to traumatic brain injury
+- After testicular radiation/chemotherapy
+
+**Example of functional etiology (TUE not approved):**
+- Age-related decline in testosterone (LOH: Late-Onset Hypogonadism)
+- Obesity-related low testosterone
+- Opioid-induced hypogonadism
+- Hypothalamic sexual dysfunction due to excessive training
+
+### Latest clinical guidelines (Endocrine Society 2018, EAU 2024)
+- **Endocrine Society 2018 Guidelines**: Recommend Testosterone Replacement Therapy (TRT) for men with symptoms and consistently low testosterone levels. The distinction between organic and functional is not an absolute criterion for treatment adaptation, but **existence of symptoms and biochemical confirmation** are the basis for starting treatment.
+- **EAU 2024 Guidelines**: TRT is also indicated for Late-Onset Hypogonadism (LOH) if it does not improve with lifestyle changes.
+- **TRAVERSE study (2023)**: Demonstrated cardiovascular safety of TRT in hypogonadal men aged 45-80 years, providing evidence for expanded application of TRT.
+
+### Gap details
+
+| Item | Gap details | Risk assessment |
+|---|---|---|
+| **Exclusion of functional hypogonadism** | WADA clearly rejects TUE for functional hypogonadism. However, the Endocrine Society guidelines allow TRT when there is no improvement after addressing reversible causes. LOH in Masters athletes most affected | **Very High** |
+| **Increase in the number of Masters athletes** | The number of Masters athletes over the age of 40 continues to increase. Age-related decline in testosterone is a physiological phenomenon, but clinical indications for TRT when symptoms are significant are in direct conflict with WADA regulations | **Very High** |
+| **Discrepancy in diagnostic thresholds** | The Endocrine Society uses a testosterone level <300 ng/dL (measured twice in the morning, fasting) as the diagnostic threshold, but WADA does not set a specific numerical threshold and requires proof of organic etiology. Even with the same biochemical finding, treatment access differs depending on whether there is "proof of organic cause" | **High** |
+| **Hypogonadism due to past AAS use** | If a former athlete has irreversible gonadal function due to past anabolic steroid use (with or without doping), WADA will deny a TUE as a "necessity resulting from past use of a prohibited substance" | **High** |
+
+### Specific scenario
+
+> **Example**: A 52-year-old masters track and field athlete. The patient visited an endocrinology department complaining of fatigue, decreased sexual function, and decreased bone density. Fasting testosterone levels in the morning were 220 ng/dL both times, and LOH (Late-Onset Hypogonadism) was diagnosed based on Endocrine Society guidelines. Despite trying to improve lifestyle habits (weight loss and exercise) for 6 months, there was no improvement. The endocrinologist determines that TRT is suitable, but according to the WADA guidelines, it falls under functional hypogonadism and TUE cannot be obtained. Athletes are forced to choose between receiving treatment or continuing to compete.
+
+---
+
+## 5. Glucocorticoids
+
+### WADA's current regulations (revised in 2022 and beyond)
+| Route of Administration | Status |
+|---|---|
+| Oral, injection (all types), rectal | **Prohibited during competitions** (S9) |
+| Inhalation/nasal/topical (skin)/ophthalmic use | **Permit** (TUE not required) |
+| Outside competition | **Allowed** on all routes (but be careful of washout period) |
+
+### Washout period issue
+
+From 2022, WADA will add GC injections (including intra-articular injections) to a ban at competitions and introduce washout tables:
+
+| Route of administration | Glucocorticoids | Washout period |
+|---|---|---|
+| Oral | Most GC | 3 days |
+| Oral | Triamcinolone | 10 days |
+| Intramuscular injection | Betamethasone, dexamethasone, etc. | 5 days |
+| Intramuscular injection | Triamcinolone acetonide | 60 days |
+| Intra-articular injection | Most GC | 3 days |
+| Intra-articular injection | Triamcinolone acetonide | 10 days |
+
+### Deviation from the latest clinical guidelines
+
+| Item | Gap details | Risk assessment |
+|---|---|---|
+| **Prohibition of intra-articular injections** | Prior to 2022, intra-articular GC injections were allowed during competitions. Currently prohibited. In sports medicine, local GC injections are the standard treatment for arthritis and tendonitis. Treatment timing during the season is severely limited | **High** |
+| **Risks of extended-release formulations** | The 2026 amendment clarifies that "GC may be detected in extended-release formulations beyond the washout period." Intramuscular triamcinolone acetonide requires a 60-day washout, making in-season use virtually impossible | **High** |
+| **Response to acute exacerbation** | If short-term oral GC administration is required due to acute exacerbation of asthma, flare-up of inflammatory bowel disease, allergic reaction, etc., a TUE application is required immediately before the competition. Retroactive TUE is possible in an emergency, but there is procedural uncertainty | **Medium** |
+| **IBD (Inflammatory Bowel Disease)** | Oral prednisolone is a standard induction therapy during flare-ups of Crohn's disease and ulcerative colitis. WADA TUE Guidelines (IBD) exist, but it is difficult to balance them with competition schedules | **Medium** |
+
+---
+
+## 6. Cardiovascular disease (diuretics/β-blockers)
+
+### WADA Current Regulations
+
+| Substance | Status |
+|---|---|
+| **All diuretics** | **Always prohibited** (S5: Diuretics and masking agents) - Possible use for weight manipulation and doping concealment |
+| **Beta blockers** | **Prohibited during competitions in specific sports** (shooting, archery, automobiles, golf, billiards, etc.) |
+
+### Deviation from the latest heart failure/hypertension guidelines
+
+#### Heart failure
+
+According to the 2025 ESC/HFA/HFAI guidelines, the Fantastic Four treatments for heart failure include:
+1. ACE inhibitor/ARNi
+2. Beta blockers
+3. MRA (mineralocorticoid receptor antagonist) - **Spironolactone etc. are prohibited by WADA as diuretics**
+4. **SGLT2 inhibitors** (dapagliflozin, empagliflozin) - Not prohibited
+
+In addition, loop diuretics (such as furosemide) are essential for congestion management.
+
+#### High blood pressure
+
+The ESC/ESH 2023 Hypertension Guidelines:
+- First choice: ACE inhibitors/ARBs, Ca antagonists, thiazide diuretics
+- **Thiazide diuretics are prohibited by WADA**
+
+| Item | Gap details | Risk assessment |
+|---|---|---|
+| **Uniform ban on diuretics** | Diuretics are prohibited due to concerns about them being masking agents, but they are clinically essential for heart failure and hypertension. Alternative drugs (ACE inhibitors, Ca channel blockers, etc.) exist, but thiazide diuretics may be necessary for treatment-resistant hypertension | **High** |
+| **Prohibition of MRA (spironolactone)** | Spironolactone/eplerenone is one of the four standard pillars of heart failure treatment. Prohibited by WADA in the S5 diuretic category. Athletes with heart failure must receive treatment outside standard treatment or receive a TUE | **High** |
+| **Restrictions on β-blockers in precision sports** | If a shooting or archery athlete is prescribed a beta-blocker for atrial fibrillation or high blood pressure, a TUE may be denied based on CAS case law (2009, 2013). “Proof that there is no performance improvement effect” required | **Very High** |
+
+### Specific scenario
+
+> **Example**: A 45-year-old masters shooter is diagnosed with paroxysmal atrial fibrillation. According to the cardiovascular internal medicine guidelines, beta-blockers (bisoprolol) are the first choice for rate control. However, beta-blockers are prohibited in shooting competitions, and CAS precedent makes it difficult to obtain a TUE. Although it is possible to switch to a Ca channel blocker (verapamil), heart rate control may be insufficient.
+
+---
+
+## 7. PCOS (Polycystic Ovary Syndrome)/Female Infertility
+### WADA Current Regulations
+
+| Substance | Status |
+|---|---|
+| Clomiphene | **Always prohibited** (S4: Antiestrogens) |
+| Letrozole | **Always prohibited** (S4: Aromatase inhibitor) |
+| Spironolactone | **Always prohibited** (S5: diuretic) |
+
+### Deviation from PCOS international guidelines (revised in 2023)
+
+| Item | Gap details | Risk assessment |
+|---|---|---|
+| **First-line drug for ovulation induction** | Letrozole (international PCOS/WHO recommendation) is the first-line drug for ovulation induction for infertility caused by PCOS. Clomiphene is the second choice. Both drugs are permanently prohibited by WADA and TUE required | **High** |
+| **Hirsutism Treatment** | Spironolactone is recommended for PCOS-related hirsutism, but is permanently prohibited in the WADA diuretic category. TUE required | **Medium** |
+| **Timing when you want to get pregnant** | Ovulation induction is used only in a limited manner according to the menstrual cycle, but under WADA's "Always Prohibited" category, a TUE is required even outside of competition. Making it difficult for athletes trying to conceive to continue competing | **High** |
+| **Reproductive rights for female athletes** | Private reproductive medical information must be disclosed to sports organizations in order to obtain a TUE. There are concerns from a privacy perspective | **Medium** |
+
+---
+## 8. Cross-cutting issues and recommendations
+
+### 8.1 Structural issues
+
+#### A. Time lag in updating guidelines
+
+Although the WADA TUE Physician Guidelines are stated to be “reviewed annually,” the actual frequency of revisions varies:
+
+| Guidelines | Latest version | Reference clinical guidelines |
+|---|---|---|
+| Diabetes | Version 5.1 (October 2023) | Deviation from ADA Standards of Care 2025 |
+| ADHD | Version 8.0 (January 2026) | Relatively up-to-date, but there are some areas where it has not kept up with changes in actual clinical practice |
+| Male hypogonadism | Updated in December 2025 | Endocrine Society 2018 guidelines reflected but different interpretations |
+| Asthma | Version 9.3 (January 2026) | Issues with GINA 2025 Track 1 recommendations and consistency |
+| Cardiovascular | Version 4.0 (October 2023) | Deviations from the new recommendations of ESC 2023/HFA 2025 |
+
+#### B. Regional disparities in the TUE system
+
+- The strictness of TUE screening varies depending on each NADO (National Anti-Doping Organization) or IF (International Federation) TUE committee.
+- International disparities in medical access (athletes from developing countries have difficulty seeing a specialist and preparing TUE application documents)
+- Language barrier (TUE guidelines are mainly provided in English and French)
+
+#### C. Difficult to prove "no performance improvement"
+
+It is inherently difficult to determine that the use of a prohibited substance does not improve performance beyond the return to normal health, which is one of the TUE approval criteria:
+- Testosterone supplementation may affect performance even if it is “within physiological range”
+- The boundary between whether stimulants “return to normal” or “improve cognitive function in ADHD beyond normal” is unclear
+- Inhalation of β2 agonists may have systemic effects beyond bronchodilation (such as muscle strengthening)
+
+### 8.2 Recommendations
+
+| Number | Recommendation | Priority |
+|---|---|---|
+High
+| 2 | **Review of the response to functional hypogonadism**: Considering the increase in the number of masters athletes, consideration of conditional approval framework for TRT TUE for LOH | High |
+High
+| 4 | **Dose Threshold Review for Asthma MART Therapy**: Reconsidering formoterol upper dose limits for GINA Track 1 MART regimens | Medium |
+| 5 | **Re-evaluation of the "prohibited only during competition" classification of ADHD**: System design that takes into account the pharmacokinetics of long-acting stimulants and reflects the impracticality of discontinuing medication on competition days | Medium |
+| 6 | **Differential prohibition of diuretics**: Consideration of a simplified TUE process for low-risk diuretics (MRA, etc.) as masking agents for the treatment of heart failure | Medium |
+| 7 | **Simplification and digitalization of TUE application**: Reduce the burden on athletes by improving the ADAMS system, strengthening multilingual support, and standardizing application documents | Medium |
+| 8 | **Strengthening sports anti-doping education for clinicians**: Integration into medical education so that prescribers can select treatments with consideration of the WADA Prohibited List | High |
+
+---
+
+## Reference materials
+
+### WADA related
+- [WADA 2026 Prohibited List](https://www.wada-ama.org/en/prohibited-list)
+- [WADA 2026 Summary of Major Modifications](https://www.wada-ama.org/sites/default/files/2025-09/2026_list_explanatory_note_en_final_september_2025.pdf)
+- [WADA 2026 Monitoring Program](https://www.wada-ama.org/sites/default/files/2025-09/2026_list_monitoring_program_en_final_clean_september_2025.pdf)
+- [WADA TUE Physician Guidelines - Asthma (v9.3, Jan 2026)](https://www.wada-ama.org/sites/default/files/2025-12/tue_physician_guidelines_asthma_-_version_9.3_january_2026.pdf)
+- [WADA TUE Physician Guidelines - ADHD (v8.0, Jan 2026)](https://www.wada-ama.org/sites/default/files/2025-12/tue_physician_guidelines_adhd_-_version_8.0_-_january_2026.pdf)
+- [WADA TUE Physician Guidelines - Diabetes Mellitus (v5.1, Oct 2023)](https://www.wada-ama.org/sites/default/files/2023-12/tue_physician_guidelines_diabetes_mellitus_-_version_5.1_-_october_2023.pdf)
+- [WADA TUE Physician Guidelines - Male Hypogonadism](https://www.wada-ama.org/en/resources/therapeutic-use-exemption/tue-physician-guidelines-male-hypogonadism)
+- [WADA TUE Physician Guidelines - Cardiovascular (v4.0, Oct 2023)](https://www.wada-ama.org/sites/default/files/2023-12/tue_physician_guidelines_cardiovascular_conditions_-_version_4.0_-_october_2023_.pdf)
+- [WADA TUE Physician Guidelines - PCOS (v2.0, Jan 2025)](https://www.wada-ama.org/sites/default/files/2025-01/tue_physician_guidelines_pcos_-_version_2.0_-_january_2025_-_final.pdf)
+- [WADA Glucocorticoids and TUE Guidelines (Sep 2025)](https://www.wada-ama.org/en/resources/therapeutic-use-exemption/glucocorticoids-and-therapeutic-use-exemptions-guidelines)
+
+### Clinical Guidelines
+- [GINA 2025 Global Strategy for Asthma Management and Prevention](https://ginasthma.org/)
+- [ADA Standards of Care in Diabetes 2025](https://professional.diabetes.org/standards-of-care)
+- [Endocrine Society: Testosterone Therapy in Men With Hypogonadism (2018)](https://academic.oup.com/jcem/article/103/5/1715/4939465)
+- [EAU Guidelines on Sexual and Reproductive Health (2024)](https://uroweb.org/guidelines/sexual-and-reproductive-health)
+- [Australian ADHD Clinical Practice Guideline (2022)](https://adhdguideline.aadpa.com.au/)
+
+### Academic literature
+- Allen H et al. Anti-doping Policy, Therapeutic Use Exemption and Medication Use in Athletes with Asthma: A Narrative Review. *Sports Med*. 2019;49(5):659-668.
+- BJSM Editorial. Therapeutic Use Exemptions (TUEs) are essential in sport: but there is room for improvement. *Br J Sports Med*. 2020;54(3):191.
+- ACC. Cardiovascular Medications on the World Anti-Doping Agency List. 2021.
+
+---
+
+## Appendix: Gap summary table by disease
+
+| Disease Areas | Core WADA Regulations | Latest Guideline Recommendations | Key Divergence Points | Risk Assessment |
+|---|---|---|---|---|
+| **Asthma** | β2 agonists allowed within dose thresholds, systemic GC prohibited during competition | GINA Track 1: ICS-formoterol MART recommendation | Conflict between formoterol upper dose limit and MART usage | Medium to high |
+| **ADHD** | Stimulants are prohibited during competitions | Stimulants are the first choice in all guidelines | All first-choice drugs are prohibited, making it unrealistic to stop taking them on competition days | High |
+| **Type 2 diabetes** | Insulin is always prohibited (TUE required), GLP-1 is currently allowed but is being monitored | ADA 2025: Early use of GLP-1 receptor agonists recommended | Risk of limited treatment access when GLP-1 is prohibited | High (future) |
+| **Male hypogonadism** | Testosterone always prohibited, TUE approved only for organic etiology | Endocrine Society/EAU: TRT applicable also for functional LOH | Exclusion of functional hypogonadism affects Masters athletes | Very high |
+| **Glucocorticoids** | Oral administration and injections are prohibited during competitions, there is a washout period | Systemic administration during acute inflammation and exacerbation is standard treatment | Restriction on intra-articular injections during the season, long-term washout | High |
+| **Cardiovascular disease** | Diuretics are always prohibited, β-blockers are prohibited in certain sports | MRA is included in the four pillars of heart failure, thiazides are used for hypertension | Standard treatment drugs are uniformly prohibited | High |
+| **PCOS/Infertility** | Clomiphene, letrozole, and spironolactone are always prohibited | Letrozole is the first choice for ovulation induction | Treatment access restrictions and privacy for athletes trying to conceive | High |
+
+---
+*This report is a research based on publicly available information and does not constitute medical advice. Please consult your sports medicine specialist and anti-doping organization regarding your individual case. *
