@@ -180,3 +180,192 @@ Phase 2: SCJにFull narrative review（6,000〜8,000語）を投稿
 ---
 
 *SCJへの投稿を進める場合、現レポートをnarrative review形式にリライトするお手伝いも可能です。*
+
+---
+
+# English Translation
+
+---
+
+# WADA TUE × Clinical practice guideline deviation report: Target journal analysis
+
+## Regarding submission to NSCA journal
+
+### Candidate 1: Strength and Conditioning Journal (SCJ) — **Most Fit**
+
+| Item | Details |
+|---|---|
+| **Publisher** | NSCA (National Strength and Conditioning Association) |
+| **IF** | 2.2 (2024) |
+| **Publication frequency** | 6 times a year |
+| **Article format** | Applied articles, Narrative review (**Original research not published**) |
+| **Word limit** | 4,000-8,000 words (5,000-8,000 words for reviews) |
+| **Peer review** | Double-blind peer review |
+
+**Reason for suitability:**
+- SCJ emphasizes "practical application of research," and this theme fits into the practical context of **S&C specialists helping athletes balance treatment and competition**
+- We accept narrative reviews, which are suitable for cross-sectional analysis of multiple disease areas like this one.
+- NSCA is active in anti-doping education through the Coach's Advantage Program with USADA, and has a high affinity with the theme.
+- For our readers (S&C coaches, AT, PT), the "boundary between prescription drugs and doping" is an issue they face on a daily basis.
+
+**Notes when posting:**
+- SCJ does not publish original research. This report must be structured as a **narrative review**
+- "Practical applications for S&C professionals" section required
+- Clarify "what S&C coaches should know" and "role in team medical care" for each disease area
+
+**Recommended paper title example:**
+> "Bridging the Gap: Clinical Practice Guidelines and WADA Therapeutic Use Exemptions — A Narrative Review for Strength and Conditioning Professionals"
+
+---
+
+### Candidate 2: Journal of Strength and Conditioning Research (JSCR) — **Conditional Suitability**
+
+| Item | Details |
+|---|---|
+| **Publisher** | NSCA |
+| **IF** | 3.0 (2024) |
+| **Publication frequency** | Monthly |
+| **Paper format** | Original research, Systematic review, Narrative review, Meta-analysis |
+| **Peer review** | Double-blind peer review |
+
+**Reason for suitability:**
+- With a more academic position, we also accept narrative reviews.
+- IF is higher than SCJ and academic impact is greater
+
+**Assignment:**
+- Emphasizes "applied research" and is likely to be required to perform data-based analysis (e.g. quantitative analysis of TUE application data)
+- The current report is a policy analysis/narrative review, which is somewhat distant from the "direct insight into strength and conditioning" required by JSCR.
+- It is clearly stated that "impact alone may lead to rejection," and there is a possibility that the theme will be judged not to be central to S&C.
+
+**Recommended:** SCJ has a better fit, but JSCR is also an option if you can add more data.
+
+---
+
+## Other promising target journals
+
+### First choice: British Journal of Sports Medicine (BJSM)
+
+| Item | Details |
+|---|---|
+| **IF** | 18.4 (2024) |
+| **Publisher** | BMJ |
+| **Features** | Main journals that publish TUE-related papers. Many papers by authors affiliated with WADA |
+
+**Strengths:**
+- The most influential paper related to TUE is published in BJSM (Vernec et al. 2020, 2024: TUE prevalence in the Olympics)
+- 2020 editorial "TUEs are essential in sport: but there is room for improvement" is directly related to this theme
+- Also accepts policy analysis and editorial comments
+- Many of our readers are sports medicine doctors and team doctors, who are familiar with both clinical practice and doping regulations.
+
+**Assignment:**
+- Very competitive (low acceptance rate)
+- Possibility of narrowing down to a shorter format (editorial/viewpoint: around 1,500 words)
+
+**Recommended submission type:** Editorial / Viewpoint / Narrative Review
+
+---
+
+### Second Recommendation: Current Sports Medicine Reports (CSMR)
+
+| Item | Details |
+|---|---|
+| **IF** | 2.8 (2024) |
+| **Publisher** | ACSM (American College of Sports Medicine) |
+| **Features** | Mainly review papers, with a track record of posting Letters to Editor regarding TUE |
+
+**Strengths:**
+- Has published papers on the TUE system (Gerrard et al. 2017: Letter from WADA TUE Expert Group)
+- Review Journal for Clinical Sports Medicine Practitioners
+- The readership of ACSM members is mainly clinicians and researchers, who are the direct target of this theme.
+
+---
+
+### Third Recommendation: Drug Testing and Analysis
+
+| Item | Details |
+|---|---|
+| **IF** | 2.9 (2024) |
+| **Publisher** | Wiley |
+| **Features** | Close collaboration with WADA, publishing annual banned-substance reviews |
+
+**Strengths:**
+- Specialized journal in the field of anti-doping
+- Main publication site for papers on WADA Prohibited List revision and its impact
+- The theme of divergence from clinical guidelines is most relevant to readers of this journal.
+
+---
+
+### 4th recommendation: International Journal of Sport Policy and Politics
+
+| Item | Details |
+|---|---|
+| **IF** | 2.1 (2024) |
+| **Publisher** | Taylor & Francis |
+| **Features** | Specializing in sports policy and governance analysis |
+
+**Strengths:**
+- Ideal for policy analysis of the TUE system itself
+- Suitable for papers containing recommendations for the system design of guideline update processes
+- Tend to have a higher acceptance rate than other journals
+
+---
+
+## Posting strategy suggestions
+
+### Plan A: NSCA SCJ as the first posting destination (user's preference)
+
+````
+Step 1: Rewrite the current report into narrative review format
+  - Abstract (structured abstract)
+  - Introduction (raises the issue of the gap between clinical practice and doping regulations)
+  - Sections by disease area (“Practical Applications” subsection added to each section)
+  - Entire "Practical Applications for S&C Professionals" section
+  - Conclusion
+  
+Step 2: Strengthen the perspective of S&C experts
+  - “The importance of S&C coaches understanding the medication status of athletes”
+  - “Framework for information sharing in team medical collaboration”
+  - “The role of the S&C coach in TUE application support”
+  
+Step 3: Adjust word count to 6,000-8,000 words
+
+Step 4: Consider co-authors
+  - Sports medicine physician (ensuring clinical accuracy)
+- Sports Pharmacology/Anti-Doping Expert
+````
+
+### Plan B: Two-step posting
+
+````
+Phase 1: Post a summary version as Viewpoint/Editorial (1,500 words) on BJSM
+  → High impact, early problem raising
+
+Phase 2: Submit a Full narrative review (6,000-8,000 words) to SCJ
+  → Practical details, as an educational tool for S&C professionals
+````
+
+### Plan C: Possibility of posting in Japanese
+
+| Journal | Features |
+|---|---|
+| **Journal of the Japanese Society of Clinical Sports Medicine** | A central journal of domestic sports medicine. There are few Japanese papers related to TUE, and the chances of acceptance are high |
+| **Physical Fitness Science** | Japanese Society of Physical Fitness Medicine. Although it is more basic, reviews are accepted |
+| **JJCSC (Japanese Strength and Conditioning Society Journal)** | NSCA Japan's Japanese magazine. Closest readership |
+
+---
+
+## Summary
+
+| Priority | Journal | IF | Format | Relevance | Notes |
+|---|---|---|---|---|---|
+| **1 (desired)** | **SCJ (NSCA)** | 2.2 | Narrative Review | ★★★★☆ | S&C practical application needs to be strengthened |
+| 2 | BJSM | 18.4 | Editorial/Viewpoint | ★★★★★ | Theme best fit but competitive |
+| 3 | Drug Testing and Analysis | 2.9 | Review | ★★★★★ | Anti-Doping Specialist Reader |
+| 4 | Current Sports Medicine Reports | 2.8 | Review | ★★★★☆ | For clinical sports medicine |
+| 5 | JSCR (NSCA) | 3.0 | Narrative Review | ★★★☆☆ | Data addition required |
+| 6 | Int J Sport Policy & Politics | 2.1 | Policy Analysis | ★★★★☆ | Specializing in policy recommendations |
+| Japanese | JJCSC / Journal of the Japanese Society of Clinical Sports Medicine | — | Review | ★★★★☆ | Has precedent in Japanese |
+
+---
+
+*If you wish to proceed with submission to SCJ, we can also help you rewrite the current report into narrative review format. *
