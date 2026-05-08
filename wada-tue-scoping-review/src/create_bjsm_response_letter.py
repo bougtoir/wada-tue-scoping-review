@@ -255,6 +255,19 @@ def create_english():
              'informs our identification of practical barriers that may not be apparent from the '
              'regulatory framework alone.')
 
+    add_para(doc, 'We wish to emphasize a fundamental point: the existence of a TUE pathway does not, '
+             'in itself, ensure equitable access to evidence-based medical care. The current system '
+             'places the burden on athletes to navigate complex regulations, secure specialist '
+             'documentation, and petition for exceptions to receive standard treatment. Few athletes '
+             'have access to sports medicine physicians with expertise in both anti-doping regulations '
+             'and their specific condition; most are treated by general practitioners or specialists '
+             'unfamiliar with WADA rules. We argue that standard clinical treatment should be the '
+             'baseline entitlement for all athletes, with restrictions applied only where a substance '
+             'confers a clear performance advantage beyond therapeutic restoration. The treatment '
+             'stress imposed on athletes\u2014regulatory uncertainty, administrative burden, and '
+             'psychological distress from navigating these systems\u2014is itself a significant and '
+             'under-recognized harm that our review aims to bring to wider attention.')
+
     add_para(doc, 'We will proceed with submission to the Strength and Conditioning Journal, where '
              'the full scoping review format (5,000\u20138,000 words) allows for the comprehensive '
              'treatment that both reviewers\u2019 comments suggest is needed. The SCJ manuscript '
@@ -432,6 +445,16 @@ def create_japanese():
              'これは貴重ですが、多面的な問題の一側面を代表するものです。我々の原稿は、日本で競技ボディビルダーとして'
              'アンチ・ドーピング制度を個人的に経験し、同様の課題に直面する患者を治療する医師─アスリートの二重の視点から'
              '執筆されています。この経験的視点は、規制枠組みだけからは明らかにならない実践的障壁の同定に寄与しています。')
+
+    add_para(doc, '根本的な点を強調したいと思います：TUE経路の存在それ自体は、エビデンスに基づく医療への公平なアクセスを'
+             '保証するものではありません。現行制度はアスリートに対し、標準治療を受けるために複雑な規制をナビゲートし、'
+             '専門家の文書を確保し、例外を請願する負担を課しています。アンチ・ドーピング規制と自身の疾患の薬物療法の'
+             '両方に精通したスポーツドクターにアクセスできるアスリートは限られています；大多数はWADA規則に不慣れな'
+             '一般開業医や専門医に治療されています。我々は、標準的臨床治療が全てのアスリートにとっての基本的権利で'
+             'あるべきであり、制限は物質が治療的回復を超える明確なパフォーマンス向上効果をもたらす場合にのみ適用される'
+             'べきだと主張します。アスリートに課される治療ストレス──規制上の不確実性、行政的負担、これらの制度をナビゲート'
+             'する際の心理的苦痛──は、それ自体が我々のレビューがより広い注目を集めることを目的とする重大かつ十分に'
+             '認識されていない害です。')
 
     add_para(doc, 'Strength and Conditioning Journalへの投稿を進めます。完全なスコーピングレビュー形式'
              '（5,000〜8,000語）により、両査読者のコメントが示唆する包括的な取り扱いが可能です。SCJ原稿には、'

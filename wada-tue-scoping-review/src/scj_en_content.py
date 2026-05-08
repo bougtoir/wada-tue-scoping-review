@@ -491,6 +491,23 @@ DISCUSSION = [
         'well-being and advocating for appropriate medical care.'
     ),
     (
+        'A fundamental reframing of the issue is warranted. The current system operates on the premise that '
+        'prohibited substances are the default, and athletes must petition for exceptions through the TUE '
+        'process to receive evidence-based treatment. We argue that the logic should be inverted: standard '
+        'clinical treatment should be the baseline entitlement for all athletes, with restrictions applied '
+        'only where a specific substance confers a clear, demonstrated performance advantage beyond '
+        'therapeutic restoration. The existence of a TUE pathway does not, in itself, resolve the '
+        'clinical-competition gap\u2014it merely creates a bureaucratic mechanism that many athletes cannot '
+        'effectively access. Few athletes have access to sports medicine physicians with expertise in both '
+        'anti-doping regulations and the pharmacotherapy of their specific condition; the majority are '
+        'treated by general practitioners or specialists who may be unfamiliar with WADA rules, the '
+        'Prohibited List, or the TUE application process. The treatment burden imposed on athletes\u2014'
+        'navigating complex regulations, securing specialist documentation, managing anxiety about '
+        'potential ADRVs, and accepting suboptimal treatment to avoid regulatory conflict\u2014constitutes '
+        'a significant and under-recognized source of psychological stress that may itself impair '
+        'athletic performance and well-being (16, 20, 21).'
+    ),
+    (
         'The variability in TUE access across jurisdictions adds an equity dimension to the clinical-competition '
         'gap that has received insufficient attention. While WADA\'s International Standard establishes universal '
         'TUE criteria, implementation by NADOs and International Federations is not uniform. As documented in '
