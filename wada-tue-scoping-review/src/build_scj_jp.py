@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Build SCJ Full Narrative Review Japanese .docx from content data."""
-import sys
-sys.path.insert(0, '/home/ubuntu')
+import os, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from create_scj_review_part1 import *
 from scj_jp_content import *
 from scj_en_content import REFS  # References stay in English
