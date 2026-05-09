@@ -552,7 +552,9 @@ DISCUSSION = [
 # Practical applications
 PRACTICAL_INTRO = (
     'The findings of this review have direct implications for strength and conditioning professionals who '
-    'work closely with athletes managing medical conditions. The following practical recommendations are offered:'
+    'work closely with athletes managing medical conditions. The gap severity across disease areas and '
+    'assessment dimensions (Figure 5) underscores the breadth of clinical-competition discrepancies that '
+    'may affect athletes under S&C supervision. The following practical recommendations are offered:'
 )
 
 PRACTICAL_ITEMS = [

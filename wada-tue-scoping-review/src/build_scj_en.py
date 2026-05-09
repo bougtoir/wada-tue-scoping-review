@@ -102,6 +102,10 @@ doc.add_paragraph()
 add_figure(doc, 'fig3_timeline.png',
            'Figure 3. Timeline of clinical guideline updates versus WADA TUE regulatory changes (2018\u20132026).')
 
+doc.add_paragraph()
+add_figure(doc, 'fig4_conceptual_framework.png',
+           'Figure 4. Conceptual framework: structural drivers of clinical-competition divergence.')
+
 # ===== DISCUSSION =====
 add_heading_styled(doc, 'DISCUSSION', 1)
 for para in DISCUSSION:

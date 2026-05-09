@@ -103,6 +103,10 @@ doc.add_paragraph()
 add_figure(doc, 'fig3_timeline.png',
            'Figure 3. 臨床ガイドライン更新とWADA TUE規制変更のタイムライン（2018〜2026年）')
 
+doc.add_paragraph()
+add_figure(doc, 'fig4_conceptual_framework.png',
+           'Figure 4. 概念的フレームワーク：臨床─競技乖離の構造的駆動要因')
+
 # ===== DISCUSSION =====
 add_heading_styled(doc, '考察', 1)
 for para in DISCUSSION_JP:
