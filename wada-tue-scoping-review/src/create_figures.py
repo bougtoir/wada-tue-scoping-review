@@ -170,7 +170,7 @@ def fig1_prisma_flowchart():
 
 
 def fig2_gap_heatmap():
-    """Figure 2: Clinical-Competition Gap Risk Heatmap."""
+    """Figure 3 (file: fig2_gap_heatmap): Clinical-Competition Gap Risk Heatmap."""
     fig, ax = plt.subplots(figsize=(12, 7))
 
     diseases = [
@@ -229,7 +229,7 @@ def fig2_gap_heatmap():
     cbar.set_ticklabels(['None', 'Low', 'Medium', 'High', 'Very High'])
     cbar.set_label('Gap Severity', fontsize=10)
 
-    ax.set_title('Figure 2. Clinical-Competition Gap Risk Matrix\n'
+    ax.set_title('Figure 3. Clinical-Competition Gap Risk Matrix\n'
                  'by Disease Area and Assessment Dimension',
                  fontsize=13, fontweight='bold', color=COLORS['wada_blue'],
                  pad=60)
@@ -250,7 +250,7 @@ def fig2_gap_heatmap():
 
 
 def fig3_timeline_comparison():
-    """Figure 3: Timeline comparison of guideline updates vs WADA updates."""
+    """Figure 4 (file: fig3_timeline): Timeline comparison of guideline updates vs WADA updates."""
     fig, ax = plt.subplots(figsize=(14, 6))
 
     # Timeline data: (year, month_approx, label, type)
@@ -326,7 +326,7 @@ def fig3_timeline_comparison():
     ax.text(2025.6, 0, 'GAP', ha='left', va='center', fontsize=10,
             fontweight='bold', color=COLORS['gap_red'])
 
-    ax.set_title('Figure 3. Timeline of Clinical Guideline Updates vs. '
+    ax.set_title('Figure 4. Timeline of Clinical Guideline Updates vs. '
                  'WADA TUE Regulatory Changes (2018-2026)',
                  fontsize=12, fontweight='bold', color=COLORS['wada_blue'],
                  pad=15)
@@ -347,7 +347,7 @@ def fig3_timeline_comparison():
 
 
 def fig4_conceptual_framework():
-    """Figure 4: Conceptual framework - Clinical-Competition Gap Model (for BJSM)."""
+    """Figure 2 (file: fig4_conceptual_framework): Conceptual framework - Clinical-Competition Gap Model."""
     fig, ax = plt.subplots(figsize=(10, 8))
     ax.set_xlim(0, 10)
     ax.set_ylim(0, 10)
@@ -370,7 +370,7 @@ def fig4_conceptual_framework():
                     arrowprops=dict(arrowstyle=style, color=color, lw=lw))
 
     # Title
-    ax.text(5, 9.7, 'Figure 4. Conceptual Framework:\n'
+    ax.text(5, 9.7, 'Figure 2. Conceptual Framework:\n'
             'The Clinical-Competition Gap in Anti-Doping',
             ha='center', va='center', fontsize=13, fontweight='bold',
             color=COLORS['wada_blue'])
