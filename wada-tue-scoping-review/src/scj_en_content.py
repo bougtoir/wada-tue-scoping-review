@@ -12,24 +12,21 @@ KEYWORDS = 'therapeutic use exemption; anti-doping; clinical practice guidelines
 
 ABSTRACT = (
     'The World Anti-Doping Agency (WADA) Therapeutic Use Exemption (TUE) system permits athletes '
-    'with legitimate medical conditions to use otherwise prohibited substances. However, as clinical '
-    'medicine advances rapidly, discrepancies are emerging between WADA regulatory documents and '
-    'current evidence-based clinical practice guidelines. This scoping review, conducted in accordance '
-    'with the PRISMA-ScR (Preferred Reporting Items for Systematic Reviews and Meta-Analyses extension '
-    'for Scoping Reviews) guidelines, systematically mapped these discrepancies across seven major '
-    'disease areas: asthma, attention-deficit/hyperactivity disorder (ADHD), type 2 diabetes mellitus, '
+    'with legitimate medical conditions to use prohibited substances. However, discrepancies are '
+    'emerging between WADA regulatory documents and current clinical practice guidelines. This '
+    'PRISMA-ScR\u2013compliant scoping review systematically mapped these discrepancies across seven '
+    'disease areas: asthma, attention-deficit/hyperactivity disorder (ADHD), type 2 diabetes, '
     'male hypogonadism, glucocorticoid-requiring conditions, cardiovascular disease, and polycystic '
-    'ovary syndrome (PCOS)/female fertility. We identified 68 relevant sources including WADA regulatory '
-    'documents (n=18), clinical practice guidelines (n=22), and peer-reviewed articles (n=28). Clinically '
-    'significant gaps were identified in all seven areas, with the most critical discrepancies in male '
-    'hypogonadism (exclusion of functional etiologies from TUE eligibility), ADHD (prohibition of all '
-    'guideline-recommended first-line stimulant medications in-competition), and emerging GLP-1 receptor '
-    'agonist therapies. Three structural drivers of divergence were identified: temporal mismatch in '
-    'guideline update cycles, criteria mismatch between patient-centered and anti-doping frameworks, '
-    'and emerging drug class mismatch. Practical implications for strength and conditioning professionals '
-    'are discussed, including strategies for supporting athletes navigating the TUE process and recognizing '
-    'medication-related performance concerns. Eight specific recommendations for harmonizing clinical and '
-    'anti-doping standards are proposed.'
+    'ovary syndrome (PCOS). We identified 68 relevant sources including WADA documents (n=18), '
+    'clinical guidelines (n=22), and peer-reviewed articles (n=28). Clinically significant gaps '
+    'were found in all seven areas, with the most critical discrepancies in male hypogonadism '
+    '(exclusion of functional etiologies from TUE eligibility), ADHD (prohibition of first-line '
+    'stimulant medications in-competition), and emerging GLP-1 receptor agonist therapies. Three '
+    'structural drivers were identified: temporal mismatch in guideline update cycles, criteria '
+    'mismatch between patient-centered and anti-doping frameworks, and emerging drug class mismatch. '
+    'Practical implications for strength and conditioning professionals are discussed, including '
+    'strategies for supporting athletes navigating the TUE process. Eight recommendations for '
+    'harmonizing clinical and anti-doping standards are proposed.'
 )
 
 # Introduction paragraphs
@@ -38,13 +35,13 @@ INTRO = [
         'The World Anti-Doping Agency (WADA) maintains the Prohibited List, an annually updated catalogue '
         'of substances and methods banned in sport, alongside the International Standard for Therapeutic '
         'Use Exemptions (ISTUE), which provides a mechanism for athletes with documented medical conditions '
-        'to use prohibited substances under specific criteria (1). The TUE system is predicated on four '
+        'to use prohibited substances under specific criteria (22). The TUE system is predicated on four '
         'requirements: (a) the athlete would experience significant health impairment without the prohibited '
         'substance; (b) the therapeutic use would produce no additional enhancement of performance beyond '
         'restoring normal health; (c) there is no reasonable permitted therapeutic alternative; and (d) the '
-        'necessity is not a consequence of prior prohibited substance use (1). To guide TUE committee '
+        'necessity is not a consequence of prior prohibited substance use (22). To guide TUE committee '
         'decisions, WADA publishes disease-specific TUE Physician Guidelines, described as "living documents" '
-        'subject to periodic revision (2).'
+        'subject to periodic revision (23).'
     ),
     (
         'Simultaneously, evidence-based clinical practice guidelines undergo continuous revision as new '
@@ -52,7 +49,7 @@ INTRO = [
         'the Global Initiative for Asthma (GINA), the American Diabetes Association (ADA), the Endocrine '
         'Society, the European Society of Cardiology (ESC), and the National Institute for Health and Care '
         'Excellence (NICE) regularly update their recommendations, sometimes fundamentally altering first-line '
-        'treatment approaches (3, 4, 5, 6, 7).'
+        'treatment approaches (2, 5, 7, 12, 13).'
     ),
     (
         'An emerging concern is the growing divergence between these two parallel systems of medical '
@@ -71,10 +68,10 @@ INTRO = [
         'examined these gaps across multiple disease domains using a scoping review methodology.'
     ),
     (
-        'Previous studies have examined individual aspects of this problem. Allen et al. (8) reviewed anti-doping '
-        'policy implications for asthmatic athletes, while Vernec et al. (9) described the TUE process itself. '
-        'Heuberger and Cohen (10) questioned the evidence base for performance-enhancing effects of many prohibited '
-        'substances, and Overbye and Wagner (11) documented athlete experiences with the anti-doping system. '
+        'Previous studies have examined individual aspects of this problem. Allen et al. (1) reviewed anti-doping '
+        'policy implications for asthmatic athletes, while Vernec et al. (20) described the TUE process itself. '
+        'Heuberger and Cohen (8) questioned the evidence base for performance-enhancing effects of many prohibited '
+        'substances, and Overbye and Wagner (16) documented athlete experiences with the anti-doping system. '
         'However, these studies focused on single disease areas or policy dimensions. A comprehensive, cross-disease '
         'comparison that maps the full landscape of clinical-competition gaps has not been attempted. Such a mapping '
         'is essential for identifying systemic patterns that transcend individual conditions and for developing '
@@ -89,6 +86,22 @@ INTRO = [
         'health and safety. Understanding the clinical-competition gap is therefore directly relevant to S&C '
         'professional practice and athlete advocacy.'
     ),
+    (
+        'A further dimension of this gap\u2014under-recognized in the literature\u2014is the variability in TUE '
+        'access across jurisdictions, sports, and competitive tiers. While the ISTUE establishes universal '
+        'criteria, the practical implementation of TUE systems by National Anti-Doping Organizations (NADOs) '
+        'and International Federations varies considerably. In some jurisdictions, TUE applications may be '
+        'effectively restricted to athletes who have already achieved elite-level results, excluding emerging, '
+        'sub-elite, and recreational competitors from the process. This creates a structural inequity in which '
+        'the right to receive evidence-based medical treatment while competing depends not on medical need but '
+        'on competitive achievement. Furthermore, few athletes have access to sports medicine physicians with '
+        'expertise in both anti-doping regulations and the pharmacotherapy of their specific condition; the '
+        'majority are treated by general practitioners or specialists unfamiliar with the Prohibited List or '
+        'the TUE application process. This limited access to knowledgeable physicians compounds the regulatory '
+        'barriers, undermines equitable access to standard care, represents a significant source of stress for '
+        'athletes, and may narrow the base of sport participation by discouraging competitors who cannot '
+        'navigate these systems.'
+    ),
 ]
 
 # Methods sub-sections
@@ -96,9 +109,9 @@ METHODS = {
     'Protocol and Registration': [
         (
             'This scoping review was conducted in accordance with the PRISMA-ScR (Preferred Reporting Items '
-            'for Systematic Reviews and Meta-Analyses extension for Scoping Reviews) guidelines (12) and '
-            'followed the methodological framework outlined by Arksey and O\'Malley (13) as refined by Levac '
-            'et al. (14). The review protocol was developed a priori but was not registered in a systematic '
+            'for Systematic Reviews and Meta-Analyses extension for Scoping Reviews) guidelines (19) and '
+            'followed the methodological framework outlined by Arksey and O\'Malley (3) as refined by Levac '
+            'et al. (10). The review protocol was developed a priori but was not registered in a systematic '
             'review database.'
         ),
     ],
@@ -148,7 +161,7 @@ METHODS = {
     ],
     'Critical Appraisal of Individual Sources': [
         (
-            'Consistent with scoping review methodology (15), formal critical appraisal of individual sources '
+            'Consistent with scoping review methodology (14), formal critical appraisal of individual sources '
             'was not performed, as the primary objective was to map the extent and nature of discrepancies '
             'rather than evaluate the quality of evidence supporting specific treatment recommendations. '
             'However, we prioritized the most recent versions of clinical guidelines from recognized '
@@ -196,52 +209,62 @@ DISEASE_RESULTS = {
             'The Global Initiative for Asthma (GINA) 2025 report established a paradigm shift in asthma '
             'management, designating ICS-formoterol (inhaled corticosteroid combined with formoterol) '
             'maintenance and reliever therapy (MART) as the preferred treatment track (Track 1) across all '
-            'severity steps (4). Under this approach, patients use a single ICS-formoterol inhaler for both '
+            'severity steps (7). Under this approach, patients use a single ICS-formoterol inhaler for both '
             'daily maintenance and as-needed symptom relief, replacing the traditional model of a separate '
             'short-acting beta-2 agonist (SABA) reliever.'
         ),
         (
             'WADA permits inhaled formoterol without a TUE provided the total delivered dose does not exceed '
             '54 \u03bcg per 24 hours (with a subsidiary limit of 36 \u03bcg per 12 hours), and a urinary threshold of '
-            '40 ng/mL applies (16). During acute exacerbations, athletes using MART as recommended by GINA may '
+            '40 ng/mL applies (24). During acute exacerbations, athletes using MART as recommended by GINA may '
             'approach or exceed these thresholds with clinically appropriate use. A cross-country skier with '
             'exercise-induced bronchoconstriction (EIB) using budesonide/formoterol 200/6 \u03bcg MART could '
             'accumulate 48 \u03bcg delivered formoterol daily during high-intensity training periods, approaching '
             'the 54 \u03bcg ceiling and risking threshold exceedance on competition days with additional reliever '
-            'use (8, 17).'
+            'use (1, 25).'
         ),
         (
             'An additional concern is that WADA\'s permissive approach to inhaled salbutamol (albuterol) without '
             'TUE creates an unintended incentive for athletes to rely on SABA monotherapy\u2014a practice GINA 2025 '
             'explicitly recommends against at any severity step due to increased risk of severe exacerbations '
-            'and asthma-related death (4). The gap between anti-doping convenience and evidence-based asthma '
+            'and asthma-related death (7). The gap between anti-doping convenience and evidence-based asthma '
             'care places athletes at clinical risk.'
+        ),
+        (
+            'The salbutamol threshold itself presents an additional compliance risk that warrants attention. '
+            'WADA permits inhaled salbutamol up to 1600 \u03bcg per 24 hours (with a subsidiary limit of 800 \u03bcg '
+            'per 8 hours), and applies a urine decision limit of 1000 ng/mL (24). During acute exacerbations '
+            'or intense exercise-induced bronchoconstriction, clinically appropriate dosing of salbutamol may '
+            'approach these thresholds. Athletes using salbutamol as prescribed may exceed the permitted dose '
+            'during symptom flares, placing them at risk of an adverse analytical finding. While a TUE can be '
+            'applied for retroactively in such cases, the burden of proof falls on the athlete, and the process '
+            'introduces uncertainty and administrative stress that may influence treatment decisions (1, 24, 25).'
         ),
     ],
     'Attention-Deficit/Hyperactivity Disorder (ADHD)': [
         (
             'All major clinical guidelines\u2014NICE (2024), the Australian ADHD Guideline (2022), and APA '
             'recommendations\u2014designate stimulant medications as first-line pharmacotherapy for ADHD in both '
-            'children and adults (7, 18, 19). Methylphenidate and lisdexamfetamine/amphetamine preparations '
+            'children and adults (4, 12, 15). Methylphenidate and lisdexamfetamine/amphetamine preparations '
             'consistently demonstrate the largest effect sizes and highest response rates among available '
             'treatments. Non-stimulant alternatives (atomoxetine, guanfacine) are positioned as second-line '
-            'agents, with approximately 30\u201340% of patients showing inadequate response (18).'
+            'agents, with approximately 30\u201340% of patients showing inadequate response (4).'
         ),
         (
             'Under WADA regulations, all stimulant medications for ADHD are prohibited in-competition: '
             'amphetamines as non-specified stimulants (S6.A) and methylphenidate as a specified stimulant '
-            '(S6.B) (16). Notably, these substances are permitted out-of-competition. This creates a fundamental '
+            '(S6.B) (24). Notably, these substances are permitted out-of-competition. This creates a fundamental '
             'paradox: ADHD is a continuous neurodevelopmental condition that does not remit on competition days, '
             'yet WADA\'s regulatory framework treats it as if pharmacotherapy can be safely interrupted for '
             'competitive events. Long-acting formulations such as extended-release methylphenidate (Concerta) '
             'and lisdexamfetamine (Vyvanse) are specifically designed to provide consistent 10\u201314 hour '
             'coverage, and abrupt discontinuation can produce withdrawal symptoms and acute cognitive '
-            'deterioration (20).'
+            'deterioration (26).'
         ),
         (
             'The TUE application process for stimulant medications requires comprehensive neuropsychological '
             'evaluation, documentation of childhood-onset symptoms per DSM-5 criteria, evidence that '
-            'non-stimulant alternatives have been trialed, and ongoing monitoring (2). For adult-diagnosed '
+            'non-stimulant alternatives have been trialed, and ongoing monitoring (23). For adult-diagnosed '
             'athletes\u2014a growing population as awareness of adult ADHD increases\u2014the requirement for childhood '
             'documentation can be particularly burdensome, especially for athletes with international careers '
             'and fragmented medical records. The time and financial costs of the TUE process effectively delay '
@@ -249,7 +272,7 @@ DISEASE_RESULTS = {
         ),
         (
             'The prevalence of ADHD among elite athletes has been estimated at 7–8%, which is comparable to '
-            'or slightly higher than the general adult population prevalence of 5–7% (11). This suggests that '
+            'or slightly higher than the general adult population prevalence of 5–7% (16). This suggests that '
             'the ADHD-TUE gap affects a substantial number of competitive athletes worldwide. Data from Vernec '
             'et al. (21) indicate that stimulant TUE applications have increased steadily at recent Olympic '
             'Games, reflecting growing diagnostic awareness. However, the administrative burden of the TUE '
@@ -259,6 +282,19 @@ DISEASE_RESULTS = {
             'and increased injury risk—represent a direct concern for S&C professionals supervising training '
             'sessions.'
         ),
+        (
+            'Critically, TUE access for stimulant medications is not uniformly available across all competitive '
+            'tiers and jurisdictions. While the ISTUE applies in principle to all athletes subject to anti-doping '
+            'rules, practical implementation varies by NADO and sport. In some jurisdictions, TUE submissions '
+            'may be operationally restricted to athletes who have achieved elite-level results or who have prior '
+            'anti-doping rule violations, effectively excluding emerging competitors from the TUE pathway. '
+            'Moreover, few athletes have access to physicians with expertise in both anti-doping regulations and '
+            'ADHD pharmacotherapy, meaning that many rely on general practitioners who may be unfamiliar with '
+            'TUE requirements. The practical effect is that emerging athletes diagnosed with ADHD\u2014who may most '
+            'need the structured support that sport and training provide\u2014face compounded barriers: limited '
+            'access to the TUE pathway, limited access to knowledgeable physicians, and the psychological stress '
+            'of navigating a system that may ultimately deny them guideline-directed first-line pharmacotherapy.'
+        ),
     ],
     'Type 2 Diabetes Mellitus and GLP-1 Receptor Agonists': [
         (
@@ -266,19 +302,19 @@ DISEASE_RESULTS = {
             'pharmacotherapy, positioning GLP-1 receptor agonists (semaglutide, liraglutide) and dual '
             'GIP/GLP-1 agonists (tirzepatide) as preferred agents for patients with established cardiovascular '
             'disease, high cardiovascular risk, or weight management needs\u2014alongside or even before metformin '
-            'intensification (5). These agents have demonstrated cardiovascular and renal protective benefits '
+            'intensification (2). These agents have demonstrated cardiovascular and renal protective benefits '
             'beyond glucose lowering.'
         ),
         (
             'Currently, GLP-1 receptor agonists are not on the WADA Prohibited List and do not require a TUE. '
             'However, semaglutide and tirzepatide were placed on the WADA Monitoring Program in 2024, '
-            'indicating active surveillance for potential future prohibition (22). The rationale relates to '
+            'indicating active surveillance for potential future prohibition (27). The rationale relates to '
             'their weight-loss properties, which could provide competitive advantage in weight-class sports '
             '(boxing, wrestling, judo, weightlifting). Should these agents be added to the Prohibited List, '
             'athletes with type 2 diabetes following ADA-recommended treatment algorithms would face a sudden '
             'disruption: they would need to discontinue first-line therapy and potentially shift to insulin '
             '(which itself requires a TUE and carries hypoglycemic risk during exercise) or rely solely on '
-            'metformin and SGLT2 inhibitors, which may provide inadequate glycemic control (5, 22).'
+            'metformin and SGLT2 inhibitors, which may provide inadequate glycemic control (2, 27).'
         ),
         (
             'The implications for S&C professionals are significant. Athletes with type 2 diabetes require '
@@ -290,7 +326,7 @@ DISEASE_RESULTS = {
             'would require comprehensive adjustment of the athlete\'s nutrition and training plan. The growing '
             'prevalence of type 2 diabetes among masters athletes and in sports with historically higher body '
             'mass (e.g., rugby, American football, powerlifting) amplifies the potential impact of any future '
-            'prohibition of these agents (5).'
+            'prohibition of these agents (2).'
         ),
     ],
     'Male Hypogonadism and Testosterone Replacement': [
@@ -299,44 +335,44 @@ DISEASE_RESULTS = {
             'hypogonadism. The Endocrine Society (2018) clinical practice guideline recommends testosterone '
             'replacement therapy (TRT) for men with consistently low testosterone levels (<300 ng/dL on two '
             'morning measurements) accompanied by symptoms, without mandating that the etiology be exclusively '
-            'organic (3). The EAU (2024) guidelines similarly recognize late-onset hypogonadism (LOH) as a '
-            'treatable condition when lifestyle modifications fail to restore testosterone levels (23). The '
+            'organic (5). The EAU (2024) guidelines similarly recognize late-onset hypogonadism (LOH) as a '
+            'treatable condition when lifestyle modifications fail to restore testosterone levels (6). The '
             'TRAVERSE trial (2023) provided landmark evidence that TRT does not increase major adverse '
             'cardiovascular events in men aged 45\u201380 with hypogonadism, removing a major historical safety '
-            'concern (24).'
+            'concern (11).'
         ),
         (
             'In contrast, WADA\'s TUE Physician Guidelines for male hypogonadism explicitly state that '
             '"TUE should only be granted for organic causes of hypogonadism" and that "functional hypogonadism '
-            'should not be granted a TUE" (2). This distinction excludes: age-related testosterone decline '
+            'should not be granted a TUE" (23). This distinction excludes: age-related testosterone decline '
             '(LOH), obesity-associated hypogonadism, opioid-induced hypogonadism, and hypothalamic dysfunction '
             'from overtraining\u2014all conditions for which clinical guidelines may recommend TRT after conservative '
             'measures fail. The growing masters athlete population (age >40), estimated at millions worldwide '
             'competing in organized events, is disproportionately affected by this gap. A 52-year-old masters '
             'track athlete with documented LOH (testosterone 220 ng/dL on two occasions), persistent symptoms '
             'despite six months of lifestyle modification, and an endocrinologist\'s TRT recommendation faces an '
-            'irreconcilable conflict between evidence-based medicine and anti-doping compliance (2, 3).'
+            'irreconcilable conflict between evidence-based medicine and anti-doping compliance (5, 23).'
         ),
         (
             'The implications for training and performance are substantial. Untreated or undertreated '
             'hypogonadism is associated with decreased lean body mass, increased fat mass, reduced bone mineral '
             'density, impaired recovery from training, persistent fatigue, decreased motivation, and depressive '
-            'symptoms (3). For S&C professionals, these symptoms may manifest as unexplained performance '
+            'symptoms (5). For S&C professionals, these symptoms may manifest as unexplained performance '
             'plateaus, difficulty maintaining training loads, prolonged soreness after sessions, and decreased '
             'training adherence. The ethical dimension is also noteworthy: denying an athlete access to a '
             'treatment considered standard of care in the general population raises questions about the '
             'proportionality of anti-doping measures, particularly when the goal of TRT is restoration to '
-            'normal physiological range rather than supraphysiological enhancement (24).'
+            'normal physiological range rather than supraphysiological enhancement (11).'
         ),
     ],
     'Glucocorticoid Administration': [
         (
             'Since 2022, WADA has prohibited all routes of glucocorticoid (GC) administration in-competition, '
-            'including intra-articular injections that were previously permitted (16, 25). Washout periods were '
+            'including intra-articular injections that were previously permitted (24, 28). Washout periods were '
             'introduced: 3 days for most oral GCs, 10 days for oral triamcinolone, 5 days for intramuscular '
-            'betamethasone/dexamethasone, and 60 days for intramuscular triamcinolone acetonide (26). '
+            'betamethasone/dexamethasone, and 60 days for intramuscular triamcinolone acetonide (29). '
             'Additionally, the 2026 modifications note that sustained-release formulations may produce '
-            'detectable GC levels beyond published washout periods (16).'
+            'detectable GC levels beyond published washout periods (24).'
         ),
         (
             'In sports medicine practice, intra-articular GC injections are a standard treatment for joint '
@@ -345,7 +381,7 @@ DISEASE_RESULTS = {
             'timing. A professional basketball player requiring a knee corticosteroid injection mid-season must '
             'now plan around competition schedules, potentially delaying necessary treatment. For inflammatory '
             'bowel disease (IBD) flares requiring oral prednisolone (a standard induction therapy), athletes '
-            'face additional barriers if the flare coincides with competition periods (25, 26).'
+            'face additional barriers if the flare coincides with competition periods (28, 29).'
         ),
     ],
     'Cardiovascular Disease: Diuretics and Beta-Blockers': [
@@ -353,9 +389,9 @@ DISEASE_RESULTS = {
             'Heart failure management, as outlined in the 2021 ESC Guidelines and subsequent updates, relies '
             'on four foundational drug classes ("Fantastic Four"): ACE inhibitors/ARNi, beta-blockers, '
             'mineralocorticoid receptor antagonists (MRAs such as spironolactone and eplerenone), and SGLT2 '
-            'inhibitors (6, 7). Of these, MRAs are prohibited under WADA category S5 (diuretics and masking '
+            'inhibitors (12, 13). Of these, MRAs are prohibited under WADA category S5 (diuretics and masking '
             'agents), as are loop diuretics (furosemide) essential for congestion management and thiazide '
-            'diuretics used in hypertension treatment (16).'
+            'diuretics used in hypertension treatment (24).'
         ),
         (
             'The blanket prohibition of all diuretics\u2014based on their potential as masking agents\u2014does not '
@@ -366,19 +402,19 @@ DISEASE_RESULTS = {
             'precision sports (shooting, archery, golf, billiards, automotive sports). A masters shooting '
             'athlete diagnosed with atrial fibrillation faces particular difficulty, as beta-blockers are '
             'first-line rate control therapy, yet CAS precedent (2009, 2013) has established a high bar for '
-            'TUE approval in sports where these agents could reduce tremor (6, 16).'
+            'TUE approval in sports where these agents could reduce tremor (13, 24).'
         ),
     ],
     'PCOS and Female Fertility Treatment': [
         (
             'The 2023 International Evidence-Based PCOS Guideline and WHO recommendations position letrozole '
             'as the first-line ovulation induction agent for PCOS-related infertility, with clomiphene as '
-            'second-line (27). Both agents are always prohibited under WADA category S4 (anti-estrogens and '
-            'aromatase inhibitors) (16). Spironolactone, recommended for PCOS-associated hirsutism, is '
+            'second-line (18). Both agents are always prohibited under WADA category S4 (anti-estrogens and '
+            'aromatase inhibitors) (24). Spironolactone, recommended for PCOS-associated hirsutism, is '
             'prohibited as a diuretic (S5). Female athletes pursuing fertility treatment must obtain a TUE for '
             'time-limited, cycle-specific medication use, requiring disclosure of private reproductive health '
             'information to sporting authorities\u2014a privacy concern that may deter athletes from seeking '
-            'treatment (2, 27).'
+            'treatment (18, 23).'
         ),
     ],
 }
@@ -393,7 +429,7 @@ CROSS_CUTTING = (
     'emphasizing prevention of performance enhancement. The organic versus functional hypogonadism '
     'distinction exemplifies this divergence. Third, an emerging drug class mismatch arises as novel '
     'therapeutics (GLP-1 receptor agonists, SGLT2 inhibitors) are incorporated into clinical practice '
-    'faster than WADA\'s regulatory framework can evaluate their potential for misuse (2, 16, 22).'
+    'faster than WADA\'s regulatory framework can evaluate their potential for misuse (23, 24, 27).'
 )
 
 CROSS_CUTTING_2 = (
@@ -405,7 +441,7 @@ CROSS_CUTTING_2 = (
     'the corresponding disease area. The Prohibited List itself is updated annually, but the TUE '
     'guidance documents that inform clinical decision-making follow a separate, less predictable '
     'revision schedule. This creates a window during which newly recommended first-line therapies '
-    'may conflict with TUE guidance that has not yet incorporated the new evidence (2, 16).'
+    'may conflict with TUE guidance that has not yet incorporated the new evidence (23, 24).'
 )
 
 # Discussion paragraphs
@@ -423,23 +459,23 @@ DISCUSSION = [
         'and privacy burdens that may deter athletes from seeking appropriate treatment\u2014particularly in '
         'conditions such as ADHD or PCOS where stigma compounds procedural barriers. Geographic disparities '
         'in TUE access further exacerbate these issues, as athletes in resource-limited settings face greater '
-        'difficulty obtaining specialist evaluations and documentation required for TUE applications (2, 21).'
+        'difficulty obtaining specialist evaluations and documentation required for TUE applications (21, 23).'
     ),
     (
         'The concept of "no additional performance enhancement beyond restoring normal health" is inherently '
         'challenging to operationalize. For testosterone replacement, even physiological-range restoration may '
         'influence body composition and recovery. For stimulant medications in ADHD, delineating cognitive '
         'normalization from enhancement is conceptually problematic. For beta-2 agonists, the boundary between '
-        'bronchodilation and potential systemic anabolic effects remains debated (28). These ambiguities create '
+        'bronchodilation and potential systemic anabolic effects remains debated (9). These ambiguities create '
         'uncertainty for both clinicians and TUE committees, potentially leading to inconsistent decisions '
         'across jurisdictions.'
     ),
     (
         'The findings of this review align with and extend previous work in the field. Heuberger and '
-        'Cohen (10) found limited evidence for performance-enhancing effects of many prohibited substances, '
+        'Cohen (8) found limited evidence for performance-enhancing effects of many prohibited substances, '
         'raising questions about the scientific basis for some prohibitions. Our analysis adds a clinical '
         'dimension to this concern by demonstrating that prohibition of specific agents creates measurable '
-        'gaps in patient care. Stuart et al. (29) documented increasing TUE application volumes, which '
+        'gaps in patient care. Stuart et al. (17) documented increasing TUE application volumes, which '
         'our disease-specific analysis helps to contextualize—the growing burden reflects both increased '
         'awareness and the expanding scope of conditions affected by clinical-competition gaps. The '
         'geographic disparities in TUE access reported by Vernec et al. (21) take on additional '
@@ -458,20 +494,67 @@ DISCUSSION = [
         'well-being and advocating for appropriate medical care.'
     ),
     (
+        'A fundamental reframing of the issue is warranted. The current system operates on the premise that '
+        'prohibited substances are the default, and athletes must petition for exceptions through the TUE '
+        'process to receive evidence-based treatment. We argue that the logic should be inverted: standard '
+        'clinical treatment should be the baseline entitlement for all athletes, with restrictions applied '
+        'only where a specific substance confers a clear, demonstrated performance advantage beyond '
+        'therapeutic restoration. The existence of a TUE pathway does not, in itself, resolve the '
+        'clinical-competition gap\u2014it merely creates a bureaucratic mechanism that many athletes cannot '
+        'effectively access. Few athletes have access to sports medicine physicians with expertise in both '
+        'anti-doping regulations and the pharmacotherapy of their specific condition; the majority are '
+        'treated by general practitioners or specialists who may be unfamiliar with WADA rules, the '
+        'Prohibited List, or the TUE application process. The treatment burden imposed on athletes\u2014'
+        'navigating complex regulations, securing specialist documentation, managing anxiety about '
+        'potential ADRVs, and accepting suboptimal treatment to avoid regulatory conflict\u2014constitutes '
+        'a significant and under-recognized source of psychological stress that may itself impair '
+        'athletic performance and well-being (16, 20, 21).'
+    ),
+    (
+        'The variability in TUE access across jurisdictions adds an equity dimension to the clinical-competition '
+        'gap that has received insufficient attention. While WADA\'s International Standard establishes universal '
+        'TUE criteria, implementation by NADOs and International Federations is not uniform. In some jurisdictions, '
+        'TUE access may be operationally restricted to athletes with prior elite-level placements or anti-doping '
+        'violations\u2014effectively creating a two-tier system where medical treatment rights during competition '
+        'depend on competitive achievement rather than clinical need. This jurisdictional variability is compounded '
+        'by the scarcity of physicians with expertise in both anti-doping regulations and evidence-based '
+        'pharmacotherapy: few athletes have access to sports medicine specialists who can competently navigate '
+        'the TUE application process for their specific condition. The majority are treated by general '
+        'practitioners or organ-specific specialists unfamiliar with the Prohibited List, TUE criteria, or '
+        'the documentation requirements. This dual barrier\u2014restricted TUE access and limited physician '
+        'expertise\u2014means that the clinical-competition gap manifests as unequal access to standard care '
+        'for athletes in different countries, sports, and competitive tiers. The treatment stress imposed on '
+        'athletes\u2014regulatory uncertainty, administrative burden, and psychological distress from navigating '
+        'these systems\u2014may itself impair athletic performance, deter sport participation, and narrow the '
+        'competitive base. The implications are particularly concerning for athletes in less-resourced NADOs, '
+        'emerging sports, and sub-elite competitive categories, where both TUE infrastructure and physician '
+        'expertise may be underdeveloped. Addressing the clinical-competition gap therefore requires not only '
+        'harmonization of TUE criteria with clinical evidence but also standardization of TUE access mechanisms '
+        'across jurisdictions (21, 23).'
+    ),
+    (
         'Several limitations of this review should be acknowledged. First, as a scoping review, we mapped the '
         'breadth of evidence rather than systematically appraising the quality of individual sources. Second, '
         'our gap severity ratings, while based on structured criteria, involve subjective judgment. Third, the '
         'review focused on the regulatory text of WADA documents and clinical guidelines; actual TUE approval '
         'rates and clinical experiences may differ from what policy documents suggest. Fourth, the rapidly '
         'evolving nature of both clinical guidelines and WADA regulations means that specific details may '
-        'change; the structural analysis and recommendations, however, address persistent systemic issues.'
+        'change; the structural analysis and recommendations, however, address persistent systemic issues. '
+        'Fifth, we acknowledge that WADA has made progress in updating TUE Physician Guidelines, with most '
+        'disease areas reviewed within the last two years. Our identification of temporal mismatch refers to '
+        'the structural lag that can occur during periods between guideline updates, not to a lack of any '
+        'review process. Finally, the jurisdictional TUE access observations are drawn in part from the '
+        'author\'s direct experience in a single NADO and sport context; systematic study of TUE implementation '
+        'variability across NADOs and sports is warranted.'
     ),
 ]
 
 # Practical applications
 PRACTICAL_INTRO = (
     'The findings of this review have direct implications for strength and conditioning professionals who '
-    'work closely with athletes managing medical conditions. The following practical recommendations are offered:'
+    'work closely with athletes managing medical conditions. The gap severity across disease areas and '
+    'assessment dimensions (Figure 5) underscores the breadth of clinical-competition discrepancies that '
+    'may affect athletes under S&C supervision. The following practical recommendations are offered:'
 )
 
 PRACTICAL_ITEMS = [
@@ -550,35 +633,35 @@ CONCLUSION = [
 
 # References
 REFS = [
-    '1. World Anti-Doping Agency. World Anti-Doping Code 2021. Montreal: WADA; 2021.',
-    '2. World Anti-Doping Agency. World Anti-Doping Code International Standard for Therapeutic Use Exemptions (ISTUE). Montreal: WADA; 2021.',
-    '3. Bhasin S, Brito JP, Cunningham GR, et al. Testosterone therapy in men with hypogonadism: an Endocrine Society clinical practice guideline. J Clin Endocrinol Metab. 2018;103(5):1715\u20131744.',
-    '4. Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. Fontana, WI: GINA; 2025.',
-    '5. American Diabetes Association Professional Practice Committee. Standards of Care in Diabetes\u20142025. Diabetes Care. 2025;48(Suppl 1):S1\u2013S352.',
-    '6. McDonagh TA, Metra M, Adamo M, et al. 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure. Eur Heart J. 2021;42(36):3599\u20133726.',
-    '7. Mancia G, Kreutz R, Brunstrom M, et al. 2023 ESH Guidelines for the management of arterial hypertension. J Hypertens. 2023;41(12):1874\u20132071.',
-    '8. Allen H, Backhouse SH, Hull JH, Price OJ. Anti-doping policy, therapeutic use exemption and medication use in athletes with asthma: a narrative review. Sports Med. 2019;49(5):659\u2013668.',
-    '9. Vernec A, Pipe A, Engel-Nitz NM. The World Anti-Doping Agency (WADA) Therapeutic Use Exemption (TUE) process. Clin J Sport Med. 2019;29(5):351\u2013355.',
-    '10. Heuberger JAAC, Cohen AF. Review of WADA prohibited substances: limited evidence for performance-enhancing effects. Sports Med. 2019;49(4):525\u2013539.',
-    '11. Overbye M, Wagner U. Experiences, attitudes and knowledge of elite athletes regarding anti-doping\u2014insights from a cross-national study. Eur J Sport Sci. 2014;14(Suppl 1):S149\u2013S160.',
-    '12. Tricco AC, Lillie E, Zarin W, et al. PRISMA extension for scoping reviews (PRISMA-ScR): checklist and explanation. Ann Intern Med. 2018;169(7):467\u2013473.',
-    '13. Arksey H, O\'Malley L. Scoping studies: towards a methodological framework. Int J Soc Res Methodol. 2005;8(1):19\u201332.',
-    '14. Levac D, Colquhoun H, O\'Brien KK. Scoping studies: advancing the methodology. Implement Sci. 2010;5:69.',
-    '15. Munn Z, Peters MDJ, Stern C, Tufanaru C, McArthur A, Aromataris E. Systematic review or scoping review? Guidance for authors when choosing between a systematic or scoping review approach. BMC Med Res Methodol. 2018;18(1):143.',
-    '16. World Anti-Doping Agency. The 2026 Prohibited List International Standard. Montreal: WADA; 2025.',
-    '17. World Anti-Doping Agency. TUE Physician Guidelines \u2013 Asthma. Version 9.3. Montreal: WADA; 2026.',
-    '18. Australian ADHD Professionals Association. Australian Evidence-Based Clinical Practice Guideline for Attention Deficit Hyperactivity Disorder (ADHD). Melbourne: AADPA; 2022.',
-    '19. National Institute for Health and Care Excellence. Attention deficit hyperactivity disorder: diagnosis and management. NICE guideline [NG87]. London: NICE; 2024 (updated).',
-    '20. World Anti-Doping Agency. TUE Physician Guidelines \u2013 Attention Deficit Hyperactivity Disorder (ADHD). Version 8.0. Montreal: WADA; 2026.',
+    '1. Allen H, Backhouse SH, Hull JH, Price OJ. Anti-doping policy, therapeutic use exemption and medication use in athletes with asthma: a narrative review. Sports Med. 2019;49(5):659\u2013668.',
+    '2. American Diabetes Association Professional Practice Committee. Standards of Care in Diabetes\u20142025. Diabetes Care. 2025;48(Suppl 1):S1\u2013S352.',
+    '3. Arksey H, O\'Malley L. Scoping studies: towards a methodological framework. Int J Soc Res Methodol. 2005;8(1):19\u201332.',
+    '4. Australian ADHD Professionals Association. Australian Evidence-Based Clinical Practice Guideline for Attention Deficit Hyperactivity Disorder (ADHD). Melbourne: AADPA; 2022.',
+    '5. Bhasin S, Brito JP, Cunningham GR, et al. Testosterone therapy in men with hypogonadism: an Endocrine Society clinical practice guideline. J Clin Endocrinol Metab. 2018;103(5):1715\u20131744.',
+    '6. European Association of Urology. EAU Guidelines on Sexual and Reproductive Health. Arnhem: EAU; 2024.',
+    '7. Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. Fontana, WI: GINA; 2025.',
+    '8. Heuberger JAAC, Cohen AF. Review of WADA prohibited substances: limited evidence for performance-enhancing effects. Sports Med. 2019;49(4):525\u2013539.',
+    '9. Hostrup M, Jacobson GA, Jessen S, Lemminger AK. Beta2-adrenoceptor agonist doping of athletes: a systematic review and meta-analysis of performance-enhancing effects. Br J Sports Med. 2020;54(22):1348\u20131356.',
+    '10. Levac D, Colquhoun H, O\'Brien KK. Scoping studies: advancing the methodology. Implement Sci. 2010;5:69.',
+    '11. Lincoff AM, Bhasin S, Flevaris P, et al. Cardiovascular safety of testosterone-replacement therapy. N Engl J Med. 2023;389(2):107\u2013117.',
+    '12. Mancia G, Kreutz R, Brunstrom M, et al. 2023 ESH Guidelines for the management of arterial hypertension. J Hypertens. 2023;41(12):1874\u20132071.',
+    '13. McDonagh TA, Metra M, Adamo M, et al. 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure. Eur Heart J. 2021;42(36):3599\u20133726.',
+    '14. Munn Z, Peters MDJ, Stern C, Tufanaru C, McArthur A, Aromataris E. Systematic review or scoping review? Guidance for authors when choosing between a systematic or scoping review approach. BMC Med Res Methodol. 2018;18(1):143.',
+    '15. National Institute for Health and Care Excellence. Attention deficit hyperactivity disorder: diagnosis and management. NICE guideline [NG87]. London: NICE; 2024 (updated).',
+    '16. Overbye M, Wagner U. Experiences, attitudes and knowledge of elite athletes regarding anti-doping\u2014insights from a cross-national study. Eur J Sport Sci. 2014;14(Suppl 1):S149\u2013S160.',
+    '17. Stuart M, Mottram DR, Erskine PJ. Therapeutic use exemptions\u2014a review and analysis of TUE application trends across Olympic sports from 2015 to 2020. Drug Test Anal. 2022;14(5):890\u2013898.',
+    '18. Teede HJ, Tay CT, Laven JJE, et al. Recommendations from the 2023 international evidence-based guideline for the assessment and management of polycystic ovary syndrome. J Clin Endocrinol Metab. 2023;108(10):2447\u20132469.',
+    '19. Tricco AC, Lillie E, Zarin W, et al. PRISMA extension for scoping reviews (PRISMA-ScR): checklist and explanation. Ann Intern Med. 2018;169(7):467\u2013473.',
+    '20. Vernec A, Pipe A, Engel-Nitz NM. The World Anti-Doping Agency (WADA) Therapeutic Use Exemption (TUE) process. Clin J Sport Med. 2019;29(5):351\u2013355.',
     '21. Vernec A, Healy D, Banon T, Petroczi A. Prevalence of therapeutic use exemptions at the Olympic Games and Paralympic Games: an analysis of data from 2016 to 2022. Br J Sports Med. 2024;58(17):966\u2013972.',
-    '22. World Anti-Doping Agency. 2026 Monitoring Program. Montreal: WADA; 2025.',
-    '23. European Association of Urology. EAU Guidelines on Sexual and Reproductive Health. Arnhem: EAU; 2024.',
-    '24. Lincoff AM, Bhasin S, Flevaris P, et al. Cardiovascular safety of testosterone-replacement therapy. N Engl J Med. 2023;389(2):107\u2013117.',
-    '25. World Anti-Doping Agency. Glucocorticoids and Therapeutic Use Exemptions Guidelines. Montreal: WADA; 2025.',
-    '26. World Anti-Doping Agency. Glucocorticoids washout table\u20142026. Montreal: WADA; 2025.',
-    '27. Teede HJ, Tay CT, Laven JJE, et al. Recommendations from the 2023 international evidence-based guideline for the assessment and management of polycystic ovary syndrome. J Clin Endocrinol Metab. 2023;108(10):2447\u20132469.',
-    '28. Hostrup M, Jacobson GA, Jessen S, Lemminger AK. Beta2-adrenoceptor agonist doping of athletes: a systematic review and meta-analysis of performance-enhancing effects. Br J Sports Med. 2020;54(22):1348\u20131356.',
-    '29. Stuart M, Mottram DR, Erskine PJ. Therapeutic use exemptions\u2014a review and analysis of TUE application trends across Olympic sports from 2015 to 2020. Drug Test Anal. 2022;14(5):890\u2013898.',
+    '22. World Anti-Doping Agency. World Anti-Doping Code 2021. Montreal: WADA; 2021.',
+    '23. World Anti-Doping Agency. World Anti-Doping Code International Standard for Therapeutic Use Exemptions (ISTUE). Montreal: WADA; 2021.',
+    '24. World Anti-Doping Agency. The 2026 Prohibited List International Standard. Montreal: WADA; 2025.',
+    '25. World Anti-Doping Agency. TUE Physician Guidelines \u2013 Asthma. Version 9.3. Montreal: WADA; 2026.',
+    '26. World Anti-Doping Agency. TUE Physician Guidelines \u2013 Attention Deficit Hyperactivity Disorder (ADHD). Version 8.0. Montreal: WADA; 2026.',
+    '27. World Anti-Doping Agency. 2026 Monitoring Program. Montreal: WADA; 2025.',
+    '28. World Anti-Doping Agency. Glucocorticoids and Therapeutic Use Exemptions Guidelines. Montreal: WADA; 2025.',
+    '29. World Anti-Doping Agency. Glucocorticoids washout table\u20142026. Montreal: WADA; 2025.',
 ]
 
 print("SCJ English content data loaded.")

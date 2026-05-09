@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Build SCJ Full Narrative Review English .docx from content data."""
-import sys
-sys.path.insert(0, '/home/ubuntu')
+import os, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from create_scj_review_part1 import *
 from scj_en_content import *
 
@@ -101,6 +101,10 @@ add_body(doc, CROSS_CUTTING_2)
 doc.add_paragraph()
 add_figure(doc, 'fig3_timeline.png',
            'Figure 3. Timeline of clinical guideline updates versus WADA TUE regulatory changes (2018\u20132026).')
+
+doc.add_paragraph()
+add_figure(doc, 'fig4_conceptual_framework.png',
+           'Figure 4. Conceptual framework: structural drivers of clinical-competition divergence.')
 
 # ===== DISCUSSION =====
 add_heading_styled(doc, 'DISCUSSION', 1)

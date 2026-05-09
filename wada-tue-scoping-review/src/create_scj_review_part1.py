@@ -7,8 +7,10 @@ from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.oxml.ns import qn
 import os
 
-OUTPUT_DIR = "/home/ubuntu"
-FIG_DIR = "/home/ubuntu/figures"
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+OUTPUT_DIR = os.path.join(BASE_DIR, 'manuscripts')
+FIG_DIR = os.path.join(BASE_DIR, 'figures')
+os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 def setup_styles(doc):
     style = doc.styles['Normal']
@@ -57,7 +59,13 @@ def add_figure(doc, filename, caption):
     if os.path.exists(fig_path):
         doc.add_picture(fig_path, width=Inches(6.0))
         doc.paragraphs[-1].alignment = WD_ALIGN_PARAGRAPH.CENTER
+    else:
+        p = doc.add_paragraph()
+        run = p.add_run(f'[Figure placeholder: {filename}]')
+        run.font.size = Pt(10); run.italic = True
+        p.alignment = WD_ALIGN_PARAGRAPH.CENTER
     p = doc.add_paragraph()
+    p.paragraph_format.space_before = Pt(14)
     run = p.add_run(caption)
     run.font.size = Pt(10)
     run.italic = True

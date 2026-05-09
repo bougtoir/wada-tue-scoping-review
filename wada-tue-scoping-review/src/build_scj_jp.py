@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Build SCJ Full Narrative Review Japanese .docx from content data."""
-import sys
-sys.path.insert(0, '/home/ubuntu')
+import os, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from create_scj_review_part1 import *
 from scj_jp_content import *
 from scj_en_content import REFS  # References stay in English
@@ -102,6 +102,10 @@ add_body(doc, CROSS_CUTTING_2_JP)
 doc.add_paragraph()
 add_figure(doc, 'fig3_timeline.png',
            'Figure 3. 臨床ガイドライン更新とWADA TUE規制変更のタイムライン（2018〜2026年）')
+
+doc.add_paragraph()
+add_figure(doc, 'fig4_conceptual_framework.png',
+           'Figure 4. 概念的フレームワーク：臨床─競技乖離の構造的駆動要因')
 
 # ===== DISCUSSION =====
 add_heading_styled(doc, '考察', 1)
