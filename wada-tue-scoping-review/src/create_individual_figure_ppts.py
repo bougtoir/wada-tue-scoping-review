@@ -18,15 +18,15 @@ FIGURES = [
     ('fig1_prisma_flowchart.png',
      'Figure 1',
      'PRISMA-ScR flow diagram illustrating the source selection process.'),
-    ('fig2_gap_heatmap.png',
+    ('fig4_conceptual_framework.png',
      'Figure 2',
+     'Conceptual framework: structural drivers of clinical-competition divergence.'),
+    ('fig2_gap_heatmap.png',
+     'Figure 3',
      'Clinical-competition gap risk matrix by disease area and assessment dimension.'),
     ('fig3_timeline.png',
-     'Figure 3',
-     'Timeline of clinical guideline updates versus WADA TUE regulatory changes (2018\u20132026).'),
-    ('fig4_conceptual_framework.png',
      'Figure 4',
-     'Conceptual framework: structural drivers of clinical-competition divergence.'),
+     'Timeline of clinical guideline updates versus WADA TUE regulatory changes (2018\u20132026).'),
     ('fig5_severity_bar.png',
      'Figure 5',
      'Clinical-competition gap severity by disease area and assessment dimension.'),
@@ -86,8 +86,9 @@ def create_individual_ppt(fig_file, title, caption):
     run3.font.size = Pt(14)
     run3.font.italic = True
 
-    # Save as individual file
-    safe_name = fig_file.replace('.png', '.pptx')
+    # Save as individual file named by figure number
+    fig_num = title.replace('Figure ', '')
+    safe_name = f'Figure_{fig_num}.pptx'
     path = os.path.join(OUT_DIR, safe_name)
     prs.save(path)
     print(f'Saved: {path}')

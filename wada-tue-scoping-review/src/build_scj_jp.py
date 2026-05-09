@@ -71,22 +71,27 @@ for sub_title, paras in METHODS_JP.items():
     add_heading_styled(doc, sub_title, 2)
     for para in paras:
         add_body(doc, para)
+    # Insert figures after the subsection where they are first cited
+    if sub_title == 'エビデンス源の選択':
+        doc.add_paragraph()
+        add_figure(doc, 'fig1_prisma_flowchart.png',
+                   'Figure 1. エビデンス源選択プロセスを示すPRISMA-ScRフロー図')
+    elif sub_title == '結果の統合':
+        doc.add_paragraph()
+        add_figure(doc, 'fig4_conceptual_framework.png',
+                   'Figure 2. 概念的フレームワーク：臨床─競技乖離の構造的駆動要因')
 
 # ===== RESULTS =====
 add_heading_styled(doc, '結果', 1)
 add_heading_styled(doc, 'エビデンス源の選択', 2)
 add_body(doc, RESULTS_SOURCE_JP)
 
-doc.add_paragraph()
-add_figure(doc, 'fig1_prisma_flowchart.png',
-           'Figure 1. エビデンス源選択プロセスを示すPRISMA-ScRフロー図')
-
 add_heading_styled(doc, '臨床─競技ギャップの概要', 2)
 add_body(doc, RESULTS_OVERVIEW_JP)
 
 doc.add_paragraph()
 add_figure(doc, 'fig2_gap_heatmap.png',
-           'Figure 2. 疾患領域および評価次元別の臨床─競技ギャップリスクマトリックス')
+           'Figure 3. 疾患領域および評価次元別の臨床─競技ギャップリスクマトリックス')
 
 # Disease-specific results
 for disease_title, paras in DISEASE_RESULTS_JP.items():
@@ -101,11 +106,7 @@ add_body(doc, CROSS_CUTTING_2_JP)
 
 doc.add_paragraph()
 add_figure(doc, 'fig3_timeline.png',
-           'Figure 3. 臨床ガイドライン更新とWADA TUE規制変更のタイムライン（2018〜2026年）')
-
-doc.add_paragraph()
-add_figure(doc, 'fig4_conceptual_framework.png',
-           'Figure 4. 概念的フレームワーク：臨床─競技乖離の構造的駆動要因')
+           'Figure 4. 臨床ガイドライン更新とWADA TUE規制変更のタイムライン（2018〜2026年）')
 
 # ===== DISCUSSION =====
 add_heading_styled(doc, '考察', 1)

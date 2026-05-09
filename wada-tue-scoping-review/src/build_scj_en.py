@@ -70,22 +70,27 @@ for sub_title, paras in METHODS.items():
     add_heading_styled(doc, sub_title, 2)
     for para in paras:
         add_body(doc, para)
+    # Insert figures after the subsection where they are first cited
+    if sub_title == 'Selection of Sources of Evidence':
+        doc.add_paragraph()
+        add_figure(doc, 'fig1_prisma_flowchart.png',
+                   'Figure 1. PRISMA-ScR flow diagram illustrating the source selection process.')
+    elif sub_title == 'Synthesis of Results':
+        doc.add_paragraph()
+        add_figure(doc, 'fig4_conceptual_framework.png',
+                   'Figure 2. Conceptual framework: structural drivers of clinical-competition divergence.')
 
 # ===== RESULTS =====
 add_heading_styled(doc, 'RESULTS', 1)
 add_heading_styled(doc, 'Source Selection', 2)
 add_body(doc, RESULTS_SOURCE)
 
-doc.add_paragraph()
-add_figure(doc, 'fig1_prisma_flowchart.png',
-           'Figure 1. PRISMA-ScR flow diagram illustrating the source selection process.')
-
 add_heading_styled(doc, 'Overview of Clinical-Competition Gaps', 2)
 add_body(doc, RESULTS_OVERVIEW)
 
 doc.add_paragraph()
 add_figure(doc, 'fig2_gap_heatmap.png',
-           'Figure 2. Clinical-competition gap risk matrix by disease area and assessment dimension.')
+           'Figure 3. Clinical-competition gap risk matrix by disease area and assessment dimension.')
 
 # Disease-specific results
 for disease_title, paras in DISEASE_RESULTS.items():
@@ -100,11 +105,7 @@ add_body(doc, CROSS_CUTTING_2)
 
 doc.add_paragraph()
 add_figure(doc, 'fig3_timeline.png',
-           'Figure 3. Timeline of clinical guideline updates versus WADA TUE regulatory changes (2018\u20132026).')
-
-doc.add_paragraph()
-add_figure(doc, 'fig4_conceptual_framework.png',
-           'Figure 4. Conceptual framework: structural drivers of clinical-competition divergence.')
+           'Figure 4. Timeline of clinical guideline updates versus WADA TUE regulatory changes (2018\u20132026).')
 
 # ===== DISCUSSION =====
 add_heading_styled(doc, 'DISCUSSION', 1)

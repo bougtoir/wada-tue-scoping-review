@@ -177,7 +177,7 @@ METHODS = {
             'described the current clinical guideline recommendation, the corresponding WADA regulatory '
             'position, and the nature and magnitude of any discrepancy. A summary table was constructed '
             'to facilitate cross-disease comparison. The conceptual framework for the clinical-competition '
-            'gap (Figure 4) was developed iteratively as patterns emerged across disease areas, identifying '
+            'gap (Figure 2) was developed iteratively as patterns emerged across disease areas, identifying '
             'common structural drivers that transcended individual conditions.'
         ),
     ],
@@ -197,7 +197,7 @@ RESULTS_SOURCE = (
 RESULTS_OVERVIEW = (
     'Clinically significant gaps between WADA regulations and current clinical practice guidelines were '
     'identified across all seven disease areas examined. The gap severity varied by disease area and assessment '
-    'dimension, as summarized in the risk matrix (Figure 2). The most critical overall gaps were identified in '
+    'dimension, as summarized in the risk matrix (Figure 3). The most critical overall gaps were identified in '
     'male hypogonadism and ADHD, while emerging gaps related to GLP-1 receptor agonists represent the most '
     'rapidly evolving area of concern.'
 )
@@ -420,7 +420,7 @@ DISEASE_RESULTS = {
 }
 
 CROSS_CUTTING = (
-    'Three structural factors underlie the identified gaps (Figure 3). First, a temporal mismatch exists '
+    'Three structural factors underlie the identified gaps (Figure 4). First, a temporal mismatch exists '
     'between clinical guideline update cycles and WADA regulatory revisions. Clinical guidelines such as '
     'GINA and ADA Standards of Care are updated annually, while WADA TUE Physician Guidelines, though '
     'described as living documents, show variable revision frequencies with lags of 1\u20133 years in some '
