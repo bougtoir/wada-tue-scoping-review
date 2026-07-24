@@ -31,11 +31,11 @@ r2 = note2.add_run('New and substantially modified text is shown in red. Minor w
 r2.italic = True; r2.font.size = Pt(11); r2.font.color.rgb = RED
 new_doc.add_page_break()
 
-# Move the inserted note/page break to the start of the body element
+# Move the inserted note/page break to the start of the body element in correct order
 body = new_doc.element.body
 # The last three elements are note, note2, page break; move them to the top
-for elem in [new_doc.paragraphs[-3]._element, new_doc.paragraphs[-2]._element, new_doc.paragraphs[-1]._element]:
-    body.insert(0, elem)
+for i, elem in enumerate([new_doc.paragraphs[-3]._element, new_doc.paragraphs[-2]._element, new_doc.paragraphs[-1]._element]):
+    body.insert(i, elem)
 
 for para in new_doc.paragraphs:
     text = para.text.strip()
