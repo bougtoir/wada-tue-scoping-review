@@ -9,7 +9,8 @@ from matplotlib.patches import FancyBboxPatch, FancyArrowPatch
 import numpy as np
 import os
 
-OUTPUT_DIR = "/home/ubuntu/figures"
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+OUTPUT_DIR = os.path.join(BASE_DIR, 'figures')
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # Color palette
@@ -72,8 +73,10 @@ def fig1_prisma_flowchart():
             style='italic')
 
     draw_box(3.5, 11.8, 3.2, 1.0,
-             'Records identified through\ndatabase searching\n(n = 847)',
-             '#BBDEFB')
+             'Records identified through\ndatabase searching\n'
+             'PubMed n=312 | Embase n=198 | SPORTDiscus n=121\n'
+             'Cochrane n=84 | Web of Science n=132 | Total n=847',
+             '#BBDEFB', fontsize=7)
     draw_box(7.5, 11.8, 3.2, 1.0,
              'Additional records from\ngrey literature & guidelines\n(n = 156)',
              '#BBDEFB')
@@ -152,7 +155,7 @@ def fig1_prisma_flowchart():
     # Disease areas
     areas = ['Asthma\n(n=12)', 'ADHD\n(n=9)', 'Diabetes/\nGLP-1 (n=11)',
              'Hypogonadism\n(n=10)', 'Glucocorticoids\n(n=9)',
-             'CV Disease\n(n=8)', 'PCOS/\nFertility (n=9)']
+             'CV Disease\n(n=8)', 'PMOS/\nFertility (n=9)']
     for i, area in enumerate(areas):
         x = 1.5 + i * 1.15
         draw_box(x, 2.0, 1.0, 0.9, area, '#E0E0E0', '#757575', 6.5)
@@ -180,7 +183,7 @@ def fig2_gap_heatmap():
         'Male Hypogonadism\n(Testosterone)',
         'Glucocorticoids\n(Intra-articular)',
         'Cardiovascular\n(Diuretics/BB)',
-        'PCOS/Fertility\n(Letrozole/Clomiphene)'
+        'PMOS/Fertility\n(Letrozole/Clomiphene)'
     ]
 
     dimensions = [
@@ -259,7 +262,7 @@ def fig3_timeline_comparison():
         (2023, 10, 'Diabetes TUE\nGuideline v5.1', '#1565C0'),
         (2023, 10, 'CV TUE\nGuideline v4.0', '#1976D2'),
         (2024, 1, 'GLP-1 RA\nMonitoring', '#1565C0'),
-        (2025, 1, 'PCOS TUE\nGuideline v2.0', '#1976D2'),
+        (2025, 1, 'PMOS/PCOS TUE\nGuideline v2.0', '#1976D2'),
         (2025, 12, 'Hypogonadism\nTUE update', '#1565C0'),
         (2026, 1, 'Asthma TUE\nv9.3', '#1976D2'),
         (2026, 1, 'ADHD TUE\nv8.0', '#1565C0'),
@@ -268,7 +271,7 @@ def fig3_timeline_comparison():
     clinical_events = [
         (2018, 6, 'Endocrine Soc.\nTestosterone GL', '#2E7D32'),
         (2022, 1, 'Australian\nADHD GL', '#388E3C'),
-        (2023, 6, 'PCOS Intl.\nGL revised', '#2E7D32'),
+        (2023, 6, 'PMOS/PCOS Intl.\nGL revised', '#2E7D32'),
         (2023, 8, 'TRAVERSE trial\n(TRT safety)', '#388E3C'),
         (2023, 10, 'ESC/ESH\nHypertension GL', '#2E7D32'),
         (2024, 1, 'EAU Sexual/\nReprod. Health', '#388E3C'),
@@ -456,9 +459,9 @@ def fig5_disease_summary_bar():
     fig, ax = plt.subplots(figsize=(11, 6))
 
     diseases = [
-        'Male\nHypogonadism', 'ADHD', 'PCOS/\nFertility',
+        'Male Hypogonadism', 'ADHD', 'PMOS / Fertility',
         'Cardiovascular', 'Glucocorticoids', 'Asthma',
-        'Type 2 Diabetes\n/ GLP-1 RA'
+        'Type 2 Diabetes / GLP-1 RA'
     ]
 
     # Composite scores for each dimension
@@ -486,7 +489,7 @@ def fig5_disease_summary_bar():
                  fontsize=13, fontweight='bold', color=COLORS['wada_blue'])
 
     ax.set_xticks(x)
-    ax.set_xticklabels(diseases, fontsize=9)
+    ax.set_xticklabels(diseases, fontsize=9, rotation=30, ha='right')
     ax.set_yticks([0, 1, 2, 3, 4])
     ax.set_yticklabels(['None', 'Low', 'Medium', 'High', 'Very High'], fontsize=9)
     ax.set_ylim(0, 4.8)
