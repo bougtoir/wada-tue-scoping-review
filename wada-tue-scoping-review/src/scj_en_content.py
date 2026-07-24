@@ -45,7 +45,7 @@ INTRO = [
         'continuous revision as new therapeutic agents, clinical trials, and diagnostic paradigms emerge. Major '
         'organizations such as the Global Initiative for Asthma (GINA), the American Diabetes Association (ADA), '
         'the Endocrine Society, the European Society of Cardiology (ESC), and the National Institute for Health '
-        'and Care Excellence (NICE) regularly update their recommendations (2, 5, 10, 18, 20).'
+        'and Care Excellence (NICE) regularly update their recommendations (2, 5, 11, 20, 22).'
     ),
     (
         'An emerging concern is the growing divergence between these two parallel systems of medical guidance—one '
@@ -64,9 +64,9 @@ INTRO = [
     ),
     (
         'Previous studies have examined individual aspects of this problem. Allen et al. (1) reviewed anti-doping '
-        'policy implications for asthmatic athletes, while Vernec et al. (31) described the TUE process itself. '
-        'Heuberger and Cohen (12) questioned the evidence base for performance-enhancing effects of many prohibited '
-        'substances, and Overbye and Wagner (21) documented athlete experiences with the anti-doping system. '
+        'policy implications for asthmatic athletes, while Gerrard and Pipe (10) described the TUE process itself. '
+        'Heuberger and Cohen (13) questioned the evidence base for performance-enhancing effects of many prohibited '
+        'substances, and Overbye and Wagner (23) documented athlete experiences with the anti-doping system. '
         'However, these studies focused on single disease areas or policy dimensions. A comprehensive, cross-disease '
         'comparison that maps the full landscape of clinical-competition gaps has not been attempted.'
     ),
@@ -85,7 +85,7 @@ INTRO = [
         'anti-doping organizations (NADOs) and international federations (IFs) varies. Athlete surveys and TUE '
         'guidance documents indicate that some NADOs require proof of national-team status, international results, '
         'or prior anti-doping testing before accepting TUE applications, creating de facto barriers for emerging, '
-        'sub-elite, and recreational athletes (21, 32, 34). Systematic data on application eligibility by competitive '
+        'sub-elite, and recreational athletes (23, 32, 34). Systematic data on application eligibility by competitive '
         'tier are limited, but the documented variation in TUE approval rates across sports and Olympic Games '
         'suggests that access is not uniform (32).'
     ),
@@ -95,9 +95,9 @@ METHODS = {
     'Protocol and Registration': [
         (
             'This scoping review was conducted in accordance with the PRISMA-ScR (Preferred Reporting Items '
-            'for Systematic Reviews and Meta-Analyses extension for Scoping Reviews) guidelines (28) and '
+            'for Systematic Reviews and Meta-Analyses extension for Scoping Reviews) guidelines (29) and '
             'followed the methodological framework outlined by Arksey and O\'Malley (3) as refined by Levac '
-            'et al. (15). The review protocol was developed a priori but was not registered in a systematic '
+            'et al. (17). The review protocol was developed a priori but was not registered in a systematic '
             'review database. A completed PRISMA-ScR checklist is provided as a supplementary file.'
         ),
     ],
@@ -157,7 +157,7 @@ METHODS = {
     ],
     'Critical Appraisal of Individual Sources': [
         (
-            'Consistent with scoping review methodology (19), formal critical appraisal of individual sources '
+            'Consistent with scoping review methodology (21), formal critical appraisal of individual sources '
             'was not performed, as the primary objective was to map the extent and nature of discrepancies '
             'rather than evaluate the quality of evidence supporting specific treatment recommendations. '
             'However, we prioritized the most recent versions of clinical guidelines from recognized '
@@ -173,7 +173,7 @@ METHODS = {
             'described the current clinical guideline recommendation, the corresponding WADA regulatory '
             'position, and the nature and magnitude of any discrepancy. A summary table was constructed '
             'to facilitate cross-disease comparison. The conceptual framework for the clinical-competition '
-            'gap (Figure 4) was developed iteratively as patterns emerged across disease areas, identifying '
+            'gap was developed iteratively as patterns emerged across disease areas, identifying '
             'common structural drivers that transcended individual conditions.'
         ),
     ],
@@ -193,11 +193,11 @@ RESULTS_CONTEXT = (
     'To contextualize the review findings, it is important to consider the size and diversity of the athlete '
     'population affected by anti-doping regulations. In 2023, WADA-coordinated anti-doping programs reported '
     '288,865 samples across 94 sports and disciplines, reflecting the breadth of testing (41). Systematic reviews '
-    'report that lower airway dysfunction occurs in approximately 20–25% of athletes (24), while the prevalence of '
-    'ADHD among elite athletes has been estimated at 7–8% (11). The masters athlete population is also '
+    'report that lower airway dysfunction occurs in approximately 20–25% of athletes (26), while the prevalence of '
+    'ADHD among elite athletes has been estimated at 7–8% (12). The masters athlete population is also '
     'expanding: the 2024 World Masters Athletics Championships registered 8,029 athletes from 112 countries (44), '
     'and the 2027 World Masters Games had already received more than 24,000 registrations more than a year '
-    'before the event (14). These figures underscore that TUE policy decisions affect a large, heterogeneous '
+    'before the event (15). These figures underscore that TUE policy decisions affect a large, heterogeneous '
     'population that includes younger elite competitors and older recreational athletes alike.'
 )
 
@@ -215,7 +215,7 @@ DISEASE_RESULTS = {
             'The Global Initiative for Asthma (GINA) 2025 report established a paradigm shift in asthma '
             'management, designating ICS-formoterol (inhaled corticosteroid combined with formoterol) '
             'maintenance and reliever therapy (MART) as the preferred treatment track (Track 1) across all '
-            'severity steps (10). Under this approach, patients use a single ICS-formoterol inhaler for both '
+            'severity steps (11). Under this approach, patients use a single ICS-formoterol inhaler for both '
             'daily maintenance and as-needed symptom relief, replacing the traditional model of a separate '
             'short-acting beta-2 agonist (SABA) reliever.'
         ),
@@ -232,12 +232,12 @@ DISEASE_RESULTS = {
         (
             'WADA\'s threshold policy for beta-2 agonists reflects meta-analytic evidence that systemic use of '
             'these agents can increase lean body mass and reduce fat mass, whereas inhaled routes at permitted '
-            'doses are considered unlikely to produce these effects (13). This performance-enhancement rationale '
+            'doses are considered unlikely to produce these effects (14). This performance-enhancement rationale '
             'is independent of the clinical guideline rationale, which prioritizes symptom control and '
             'exacerbation prevention. The misalignment is not a contradiction of clinical asthma care, but it '
             'creates an unintended incentive for athletes to rely on SABA monotherapy—a practice GINA 2025 '
             'explicitly recommends against at any severity step because it increases the risk of severe '
-            'exacerbations and asthma-related death (10).'
+            'exacerbations and asthma-related death (11).'
         ),
         (
             'The salbutamol threshold itself presents an additional compliance risk that warrants attention. '
@@ -254,7 +254,7 @@ DISEASE_RESULTS = {
         (
             'Major clinical guidelines, including NICE 2024 and the Australian ADHD Guideline 2022, '
             'designate stimulant medications as first-line pharmacotherapy for ADHD in both children and '
-            'adults (4, 20). Methylphenidate and lisdexamfetamine/amphetamine preparations consistently '
+            'adults (4, 22). Methylphenidate and lisdexamfetamine/amphetamine preparations consistently '
             'demonstrate the largest effect sizes and highest response rates among available treatments. '
             'Non-stimulant alternatives (atomoxetine, guanfacine) are positioned as second-line agents, with '
             'approximately 30–40% of patients showing an inadequate response (4).'
@@ -265,7 +265,7 @@ DISEASE_RESULTS = {
             '(S6.B) (35). Notably, these substances are permitted out-of-competition. WADA\'s rationale for the '
             'in-competition ban is that stimulants may acutely improve alertness, vigilance, and concentration, '
             'which could confer a competitive advantage; out-of-competition use is permitted because treatment '
-            'continuity is clinically necessary and detection windows are shorter outside events (11, 35). '
+            'continuity is clinically necessary and detection windows are shorter outside events (12, 35). '
             'This creates a fundamental paradox: ADHD is a continuous neurodevelopmental condition that does not '
             'remit on competition days, yet WADA\'s regulatory framework treats it as if pharmacotherapy can be '
             'safely interrupted for competitive events. Long-acting formulations such as extended-release '
@@ -284,7 +284,7 @@ DISEASE_RESULTS = {
         ),
         (
             'The prevalence of ADHD among elite athletes has been estimated at 7–8%, comparable to or slightly '
-            'higher than the general adult population prevalence (11). This suggests that the ADHD-TUE gap '
+            'higher than the general adult population prevalence (12). This suggests that the ADHD-TUE gap '
             'affects a substantial number of competitive athletes worldwide. Data from Vernec et al. (32) '
             'indicate that stimulant TUE applications have increased steadily at recent Olympic Games, reflecting '
             'growing diagnostic awareness. However, the administrative burden of the TUE process may lead to '
@@ -299,7 +299,7 @@ DISEASE_RESULTS = {
             'implementation varies by NADO and IF. Some NADOs require proof of national-team status, international '
             'results, or prior anti-doping testing before accepting TUE applications; others accept applications '
             'at any competitive level but impose documentation and processing requirements that function as de '
-            'facto barriers (21, 32, 34). Emerging athletes diagnosed with ADHD therefore face compounded '
+            'facto barriers (23, 32, 34). Emerging athletes diagnosed with ADHD therefore face compounded '
             'barriers: limited access to the TUE pathway, limited access to physicians with expertise in both '
             'anti-doping regulations and ADHD pharmacotherapy, and the psychological stress of navigating a '
             'system that may ultimately deny them guideline-directed first-line pharmacotherapy.'
@@ -317,9 +317,9 @@ DISEASE_RESULTS = {
         (
             'Semaglutide (Ozempic) received US Food and Drug Administration approval in December 2017, European '
             'Medicines Agency authorization in February 2018, and Pharmaceuticals and Medical Devices Agency '
-            'approval in March 2018 for type 2 diabetes (8, 22, 29). Tirzepatide (Mounjaro) received FDA '
+            'approval in March 2018 for type 2 diabetes (8, 24, 30). Tirzepatide (Mounjaro) received FDA '
             'approval in May 2022, EMA authorization in September 2022, and PMDA approval in April 2023 for '
-            'type 2 diabetes (9, 23, 30). This rapid multinational uptake means that many athletes with type 2 '
+            'type 2 diabetes (9, 25, 31). This rapid multinational uptake means that many athletes with type 2 '
             'diabetes are now treated with agents that may also be attractive for misuse because of their '
             'weight-loss effects.'
         ),
@@ -356,7 +356,7 @@ DISEASE_RESULTS = {
             'treatable condition when lifestyle modifications fail to restore testosterone levels (7). The '
             'TRAVERSE trial 2023 provided landmark evidence that TRT does not increase major adverse '
             'cardiovascular events in men aged 45–80 with hypogonadism, removing a major historical safety '
-            'concern (16).'
+            'concern (18).'
         ),
         (
             'Organic hypogonadism refers to conditions with identifiable pathology of the hypothalamic-pituitary-gonadal '
@@ -384,7 +384,7 @@ DISEASE_RESULTS = {
             'male athletes older than 50 years found that 11.5% had severe testosterone deficiency (<8 nmol/L) '
             'and 26.2% had mild deficiency (8–12 nmol/L), with prevalence rising with age (6). The 2024 World '
             'Masters Athletics Championships registered 8,029 athletes (44), and the 2027 World Masters Games '
-            'had more than 24,000 registrants (14). These data indicate that a large and growing population of '
+            'had more than 24,000 registrants (15). These data indicate that a large and growing population of '
             'older competitive athletes may meet clinical criteria for TRT while failing WADA\'s organic-only TUE '
             'criterion. A 52-year-old masters track athlete with documented LOH (testosterone 220 ng/dL on two '
             'occasions), persistent symptoms despite six months of lifestyle modification, and an endocrinologist\'s '
@@ -400,7 +400,7 @@ DISEASE_RESULTS = {
             'training adherence. The ethical dimension is also noteworthy: denying an athlete access to a '
             'treatment considered standard of care in the general population raises questions about the '
             'proportionality of anti-doping measures, particularly when the goal of TRT is restoration to '
-            'normal physiological range rather than supraphysiological enhancement (16).'
+            'normal physiological range rather than supraphysiological enhancement (18).'
         ),
     ],
     'Glucocorticoid Administration': [
@@ -426,10 +426,10 @@ DISEASE_RESULTS = {
         (
             'Heart failure management, as outlined in the 2021 ESC Guidelines and subsequent updates, relies '
             'on four foundational drug classes: ACE inhibitors/ARNi, beta-blockers, mineralocorticoid receptor '
-            'antagonists (MRAs such as spironolactone and eplerenone), and SGLT2 inhibitors (18). Of these, '
+            'antagonists (MRAs such as spironolactone and eplerenone), and SGLT2 inhibitors (20). Of these, '
             'MRAs are prohibited under WADA category S5 (diuretics and masking agents), as are loop diuretics '
             '(furosemide) essential for congestion management and thiazide diuretics used in hypertension '
-            'treatment (17, 35).'
+            'treatment (19, 35).'
         ),
         (
             'The blanket prohibition of all diuretics is based on their potential as masking agents. Advanced '
@@ -442,27 +442,27 @@ DISEASE_RESULTS = {
             'effects that could directly improve competitive performance (35). A masters shooting athlete diagnosed '
             'with atrial fibrillation faces particular difficulty, as beta-blockers are first-line rate control '
             'therapy, yet CAS precedents from 2009 and 2013 have established a high bar for TUE approval in sports where '
-            'these agents could reduce tremor (18, 35).'
+            'these agents could reduce tremor (20, 35).'
         ),
     ],
     'PMOS and Female Fertility Treatment': [
         (
             'In May 2026, an international panel proposed renaming polycystic ovary syndrome (PCOS) to '
             'polyendocrine metabolic ovarian syndrome (PMOS) to better reflect its heterogeneous endocrine, '
-            'metabolic, and reproductive features (27). We have adopted this proposed terminology throughout '
+            'metabolic, and reproductive features (28). We have adopted this proposed terminology throughout '
             'this review while retaining PCOS in parentheses for reader recognition.'
         ),
         (
             'The 2023 International Evidence-Based PCOS Guideline and WHO recommendations position letrozole '
             'as the first-line ovulation induction agent for PMOS-related infertility, with clomiphene as '
-            'second-line (26). Both agents are always prohibited under WADA category S4 (anti-estrogens and '
+            'second-line (27). Both agents are always prohibited under WADA category S4 (anti-estrogens and '
             'aromatase inhibitors) (35). WADA\'s rationale is that aromatase inhibitors and selective estrogen '
             'receptor modulators may be misused to mitigate estrogenic effects of anabolic-androgenic steroid '
             'use or to restore endogenous testosterone production (35). Spironolactone, recommended for '
             'PMOS-associated hirsutism, is prohibited as a diuretic (S5). Female athletes pursuing fertility '
             'treatment must obtain a TUE for time-limited, cycle-specific medication use, requiring disclosure '
             'of private reproductive health information to sporting authorities—a privacy concern that may deter '
-            'athletes from seeking treatment (26, 36).'
+            'athletes from seeking treatment (27, 36).'
         ),
     ],
 }
@@ -492,7 +492,8 @@ CROSS_CUTTING_2 = (
     'revisions in 2019 and 2025. The ADA Standards of Care is updated annually. In contrast, some WADA TUE '
     'Physician Guidelines have remained unchanged for 3–4 years despite significant clinical developments in '
     'the corresponding disease area. This creates a window during which newly recommended first-line therapies '
-    'may conflict with TUE guidance that has not yet incorporated the new evidence (35, 36).'
+    'may conflict with TUE guidance that has not yet incorporated the new evidence (35, 36). '
+    'These structural drivers and their interactions are summarized in the conceptual framework (Figure 4).'
 )
 
 DISCUSSION = [
@@ -509,7 +510,7 @@ DISCUSSION = [
         'and privacy burdens that may deter athletes from seeking appropriate treatment—particularly in '
         'conditions such as ADHD or PMOS where stigma compounds procedural barriers. Geographic disparities '
         'in TUE access further exacerbate these issues, as athletes in resource-limited settings face greater '
-        'difficulty obtaining specialist evaluations and documentation required for TUE applications (21, 32, 34).'
+        'difficulty obtaining specialist evaluations and documentation required for TUE applications (23, 32, 34).'
     ),
     (
         'It is important to acknowledge WADA\'s perspective. WADA\'s mandate is to protect clean sport by '
@@ -526,16 +527,17 @@ DISCUSSION = [
         'influence body composition and recovery. For stimulant medications in ADHD, delineating cognitive '
         'normalization from enhancement is conceptually problematic. For beta-2 agonists, the boundary between '
         'bronchodilation and potential systemic anabolic effects remains debated, and WADA\'s thresholds are '
-        'set at doses considered unlikely to confer an unfair advantage (13). These ambiguities create '
+        'set at doses considered unlikely to confer an unfair advantage (14). These ambiguities create '
         'uncertainty for both clinicians and TUE committees, potentially leading to inconsistent decisions '
         'across jurisdictions.'
     ),
     (
-        'The findings of this review align with and extend previous work. Heuberger and Cohen (12) found '
+        'The findings of this review align with and extend previous work. Heuberger and Cohen (13) found '
         'limited evidence for performance-enhancing effects of many prohibited substances, raising questions '
         'about the scientific basis for some prohibitions. Our analysis adds a clinical dimension to this '
         'concern by demonstrating that prohibition of specific agents creates measurable gaps in patient care. '
-        'Stuart et al. (25) documented increasing TUE application volumes, which our disease-specific analysis '
+        'Data from the International Testing Agency (ITA) TUE dashboard (16) show that TUE application volumes '
+        'managed by the ITA increased from approximately 650 in 2023 to 850 in 2025, which our disease-specific analysis '
         'helps to contextualize—the growing burden reflects both increased awareness and the expanding scope '
         'of conditions affected by clinical-competition gaps. The geographic disparities in TUE access reported '
         'by Vernec et al. (32) take on additional significance when considered alongside our finding that some '
@@ -629,28 +631,28 @@ REFS = [
     '7. European Association of Urology. EAU Guidelines on Sexual and Reproductive Health. Arnhem: EAU; 2024.',
     '8. European Medicines Agency. Ozempic: EPAR – summary for the public. 2018 Feb 8.',
     '9. European Medicines Agency. Mounjaro: EPAR – summary for the public. 2022 Sep 15.',
-    '10. Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. Fontana, WI: GINA; 2025.',
-    '11. Han DH, McDuff D, Thompson D, et al. Attention-deficit/hyperactivity disorder in elite athletes: a narrative review. Br J Sports Med. 2019;53(12):741–747.',
-    '12. Heuberger JAAC, Cohen AF. Review of WADA prohibited substances: limited evidence for performance-enhancing effects. Sports Med. 2019;49(4):525–539.',
-    '13. Hostrup M, Jacobson GA, Jessen S, Lemminger AK. Beta2-adrenoceptor agonist doping of athletes: a systematic review and meta-analysis of performance-enhancing effects. Br J Sports Med. 2020;54(22):1348–1356.',
-    '14. International Masters Games Association. Record registrations: already over 24,000 athletes joining World Masters Games. 2026.',
-    '15. Levac D, Colquhoun H, O\'Brien KK. Scoping studies: advancing the methodology. Implement Sci. 2010;5:69.',
-    '16. Lincoff AM, Bhasin S, Flevaris P, et al. Cardiovascular safety of testosterone-replacement therapy. N Engl J Med. 2023;389(2):107–117.',
-    '17. Mancia G, Kreutz R, Brunstrom M, et al. 2023 ESH Guidelines for the management of arterial hypertension. J Hypertens. 2023;41(12):1874–2071.',
-    '18. McDonagh TA, Metra M, Adamo M, et al. 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure. Eur Heart J. 2021;42(36):3599–3726.',
-    '19. Munn Z, Peters MDJ, Stern C, Tufanaru C, McArthur A, Aromataris E. Systematic review or scoping review? Guidance for authors when choosing between a systematic or scoping review approach. BMC Med Res Methodol. 2018;18(1):143.',
-    '20. National Institute for Health and Care Excellence. Attention deficit hyperactivity disorder: diagnosis and management. NICE guideline [NG87]. London: NICE; 2024 (updated).',
-    '21. Overbye M, Wagner U. Experiences, attitudes and knowledge of elite athletes regarding anti-doping—insights from a cross-national study. Eur J Sport Sci. 2014;14(Suppl 1):S149–S160.',
-    '22. Pharmaceuticals and Medical Devices Agency. Approval of Ozempic subcutaneous injection. 2018 Mar 20.',
-    '23. Pharmaceuticals and Medical Devices Agency. Approval of Mounjaro subcutaneous injection. 2023 Apr.',
-    '24. Price OJ, Sewry N, Schwellnus M, et al. Prevalence of lower airway dysfunction in athletes: a systematic review and meta-analysis. Br J Sports Med. 2022;56(4):213–222.',
-    '25. Stuart M, Mottram DR, Erskine PJ. Therapeutic use exemptions—a review and analysis of TUE application trends across Olympic sports from 2015 to 2020. Drug Test Anal. 2022;14(5):890–898.',
-    '26. Teede HJ, Tay CT, Laven JJE, et al. Recommendations from the 2023 international evidence-based guideline for the assessment and management of polycystic ovary syndrome. J Clin Endocrinol Metab. 2023;108(10):2447–2469.',
-    '27. Teede HJ, Azziz R, Balen AH, et al. Polyendocrine metabolic ovarian syndrome: a proposal for the renaming of polycystic ovary syndrome. Lancet. 2026; published online May 13, 2026.',
-    '28. Tricco AC, Lillie E, Zarin W, et al. PRISMA extension for scoping reviews (PRISMA-ScR): checklist and explanation. Ann Intern Med. 2018;169(7):467–473.',
-    '29. US Food and Drug Administration. FDA approves Ozempic to improve glycemic control in adults with type 2 diabetes. Press release. 2017 Dec 4.',
-    '30. US Food and Drug Administration. FDA approves Mounjaro (tirzepatide) injection for type 2 diabetes. Press release. 2022 May 13.',
-    '31. Vernec A, Pipe A, Engel-Nitz NM. The World Anti-Doping Agency (WADA) Therapeutic Use Exemption (TUE) process. Clin J Sport Med. 2019;29(5):351–355.',
+    '10. Gerrard D, Pipe A. Therapeutic use exemptions. Med Sport Sci. 2017;62:55–67.',
+    '11. Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. Fontana, WI: GINA; 2025.',
+    '12. Han DH, McDuff D, Thompson D, et al. Attention-deficit/hyperactivity disorder in elite athletes: a narrative review. Br J Sports Med. 2019;53(12):741–747.',
+    '13. Heuberger JAAC, Cohen AF. Review of WADA prohibited substances: limited evidence for performance-enhancing effects. Sports Med. 2019;49(4):525–539.',
+    '14. Hostrup M, Jacobson GA, Jessen S, Lemminger AK. Beta2-adrenoceptor agonist doping of athletes: a systematic review and meta-analysis of performance-enhancing effects. Br J Sports Med. 2020;54(22):1348–1356.',
+    '15. International Masters Games Association. Record registrations: already over 24,000 athletes joining World Masters Games. 2026.',
+    '16. International Testing Agency. Behind the numbers: ITA publishes TUE dashboard to strengthen transparency in the global fight against doping in sport. 2026 Mar 17. Available at: https://ita.sport/news/behind-the-numbers-ita-publishes-tue-dashboard-to-strengthen-transparency-in-the-global-fight-against-doping-in-sport/',
+    '17. Levac D, Colquhoun H, O\'Brien KK. Scoping studies: advancing the methodology. Implement Sci. 2010;5:69.',
+    '18. Lincoff AM, Bhasin S, Flevaris P, et al. Cardiovascular safety of testosterone-replacement therapy. N Engl J Med. 2023;389(2):107–117.',
+    '19. Mancia G, Kreutz R, Brunstrom M, et al. 2023 ESH Guidelines for the management of arterial hypertension. J Hypertens. 2023;41(12):1874–2071.',
+    '20. McDonagh TA, Metra M, Adamo M, et al. 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure. Eur Heart J. 2021;42(36):3599–3726.',
+    '21. Munn Z, Peters MDJ, Stern C, Tufanaru C, McArthur A, Aromataris E. Systematic review or scoping review? Guidance for authors when choosing between a systematic or scoping review approach. BMC Med Res Methodol. 2018;18(1):143.',
+    '22. National Institute for Health and Care Excellence. Attention deficit hyperactivity disorder: diagnosis and management. NICE guideline [NG87]. London: NICE; 2024 (updated).',
+    '23. Overbye M, Wagner U. Between medical treatment and performance enhancement: an investigation of how elite athletes experience therapeutic use exemptions. Int J Drug Policy. 2013;24(6):579–588.',
+    '24. Pharmaceuticals and Medical Devices Agency. Approval of Ozempic subcutaneous injection. 2018 Mar 20.',
+    '25. Pharmaceuticals and Medical Devices Agency. Approval of Mounjaro subcutaneous injection. 2023 Apr.',
+    '26. Price OJ, Sewry N, Schwellnus M, et al. Prevalence of lower airway dysfunction in athletes: a systematic review and meta-analysis. Br J Sports Med. 2022;56(4):213–222.',
+    '27. Teede HJ, Tay CT, Laven JJE, et al. Recommendations from the 2023 international evidence-based guideline for the assessment and management of polycystic ovary syndrome. J Clin Endocrinol Metab. 2023;108(10):2447–2469.',
+    '28. Teede HJ, Azziz R, Balen AH, et al. Polyendocrine metabolic ovarian syndrome: a proposal for the renaming of polycystic ovary syndrome. Lancet. 2026; published online May 13, 2026.',
+    '29. Tricco AC, Lillie E, Zarin W, et al. PRISMA extension for scoping reviews (PRISMA-ScR): checklist and explanation. Ann Intern Med. 2018;169(7):467–473.',
+    '30. US Food and Drug Administration. FDA approves Ozempic to improve glycemic control in adults with type 2 diabetes. Press release. 2017 Dec 4.',
+    '31. US Food and Drug Administration. FDA approves Mounjaro (tirzepatide) injection for type 2 diabetes. Press release. 2022 May 13.',
     '32. Vernec A, Healy D, Banon T, Petroczi A. Prevalence of therapeutic use exemptions at the Olympic Games and Paralympic Games: an analysis of data from 2016 to 2022. Br J Sports Med. 2024;58(17):966–972.',
     '33. World Anti-Doping Agency. World Anti-Doping Code 2021. Montreal: WADA; 2021.',
     '34. World Anti-Doping Agency. World Anti-Doping Code International Standard for Therapeutic Use Exemptions (ISTUE). Montreal: WADA; 2021.',
