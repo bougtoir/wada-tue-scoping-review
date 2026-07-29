@@ -5,12 +5,36 @@ from docx import Document
 from docx.shared import Inches, Pt, Cm, RGBColor
 from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.oxml.ns import qn
+from docx.oxml import OxmlElement
 import os
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUTPUT_DIR = os.path.join(BASE_DIR, 'manuscripts')
 FIG_DIR = os.path.join(BASE_DIR, 'figures')
 os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+def _add_page_number_footer(section):
+    """Add a centered PAGE field to the section footer."""
+    footer = section.footer
+    p = footer.paragraphs[0] if footer.paragraphs else footer.add_paragraph()
+    p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    run = p.add_run()
+    run.font.name = 'Times New Roman'
+    run.font.size = Pt(10)
+    fld_begin = OxmlElement('w:fldChar')
+    fld_begin.set(qn('w:fldCharType'), 'begin')
+    instr = OxmlElement('w:instrText')
+    instr.set(qn('xml:space'), 'preserve')
+    instr.text = ' PAGE '
+    fld_separate = OxmlElement('w:fldChar')
+    fld_separate.set(qn('w:fldCharType'), 'separate')
+    fld_end = OxmlElement('w:fldChar')
+    fld_end.set(qn('w:fldCharType'), 'end')
+    run._r.append(fld_begin)
+    run._r.append(instr)
+    run._r.append(fld_separate)
+    run._r.append(fld_end)
+
 
 def setup_styles(doc):
     style = doc.styles['Normal']
@@ -26,6 +50,7 @@ def setup_styles(doc):
         section.bottom_margin = Cm(2.54)
         section.left_margin = Cm(2.54)
         section.right_margin = Cm(2.54)
+        _add_page_number_footer(section)
 
 def add_heading_styled(doc, text, level=1):
     p = doc.add_paragraph()
@@ -64,8 +89,13 @@ def add_figure(doc, filename, caption):
         run = p.add_run(f'[Figure placeholder: {filename}]')
         run.font.size = Pt(10); run.italic = True
         p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    add_figure_legend(doc, caption)
+
+
+def add_figure_legend(doc, caption):
     p = doc.add_paragraph()
     p.paragraph_format.space_before = Pt(14)
+    p.paragraph_format.line_spacing = 1.5
     run = p.add_run(caption)
     run.font.size = Pt(10)
     run.italic = True
