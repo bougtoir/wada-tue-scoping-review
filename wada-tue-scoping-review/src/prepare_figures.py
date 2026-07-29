@@ -104,7 +104,7 @@ def clean_pptx_figures():
                                 if 'PCOS' in r.text:
                                     r.text = r.text.replace('PCOS', 'PMOS')
 
-            # For the native chart, update categories and remove legend
+            # For the native chart, update categories and keep legend for Figure 5
             if sh.shape_type == 3:
                 chart = sh.chart
                 series_data = [(s.name, list(s.values)) for s in chart.series]
@@ -121,7 +121,8 @@ def clean_pptx_figures():
                 for name, vals in series_data:
                     cd.add_series(name, vals)
                 chart.replace_data(cd)
-                chart.has_legend = False
+                # Figure 5 bar chart should keep its legend; others have no chart.
+                chart.has_legend = True
                 chart.has_title = False
 
         for sh in to_remove:

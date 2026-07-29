@@ -221,7 +221,13 @@ def fig2_gap_heatmap():
             ax.text(j, i, risk_labels[val], ha='center', va='center',
                     fontsize=9, fontweight='bold', color=color)
 
-    # No title, colorbar, or caption in the figure image
+    # Colorbar (legend for gap severity)
+    cbar = plt.colorbar(im, ax=ax, fraction=0.03, pad=0.04)
+    cbar.set_ticks([0, 1, 2, 3, 4])
+    cbar.set_ticklabels(['None', 'Low', 'Medium', 'High', 'Very High'])
+    cbar.set_label('Gap Severity', fontsize=10)
+
+    # No title or caption in the figure image
 
     # Grid
     for i in range(len(diseases) + 1):
