@@ -130,7 +130,7 @@ comments_r2 = [
     ('Page 11, Lines 35-43: Include WADA perspective on why ADHD stimulants are allowed out-of-competition but not in-competition.',
      'The ADHD section now explicitly explains WADAs rationale: stimulants may acutely improve alertness and concentration in competition, whereas out-of-competition treatment continuity is permitted because detection windows are shorter and clinical need persists.'),
     ('Page 13, Line 25: This statement requires a reference to support it.',
-     'The statement has been supported with an appropriate reference.'),
+     'The statement has been supported with references (23, 32, 34): Overbye and Wagner (23) document how elite athletes experience TUE access as a barrier; Vernec et al. (32) report variation in TUE prevalence across Olympic Games; and WADA\'s ISTUE (34) establishes the criteria that NADOs and IFs implement with variable practical requirements.'),
     ('Page 14: Mention the major increase in GLP-1 medications in overweight/obese populations without diabetes.',
      'The T2D section now notes that semaglutide and tirzepatide are also widely used for weight management, which is the basis for WADA surveillance and potential future prohibition in weight-class sports.'),
     ('Page 15, Lines 31 & 33: WADA perspective on testosterone and risk of supraphysiological enhancement.',
