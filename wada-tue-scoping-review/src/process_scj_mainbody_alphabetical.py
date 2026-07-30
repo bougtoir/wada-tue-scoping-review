@@ -184,10 +184,17 @@ def _add_paragraph_marked(doc, text, size=12, level=0, is_insert=False, is_delet
         bold = True
     else:
         bold = False
-    if is_insert:
-        _add_citation_runs(p, text, color=RED, size=size, bold=bold)
-    elif is_delete:
-        _add_citation_runs(p, text, color=BLUE, strike=True, size=size, bold=bold)
+    # Numbered list items (references, recommendations) should not have issue numbers superscripted
+    is_numbered_item = re.match(r'^\d+\.\s', text.strip()) is not None
+    color = RED if is_insert else (BLUE if is_delete else BLACK)
+    if is_insert or is_delete or is_numbered_item:
+        run = p.add_run(text)
+        run.font.size = Pt(size)
+        run.font.name = 'Times New Roman'
+        run.font.color.rgb = color
+        run.font.strike = is_delete
+        run.bold = bold
+        run._element.rPr.rFonts.set(qn('w:eastAsia'), 'Times New Roman')
     else:
         if level == 0:
             p.paragraph_format.first_line_indent = Cm(1.27)
@@ -215,26 +222,34 @@ def _build_marked_doc(old_texts, new_texts, out_path):
                 lvl = _heading_level(t)
                 _add_paragraph_marked(doc, t, level=lvl, is_insert=True)
         elif tag == 'replace':
-            # Pair paragraphs index-wise and show word-level diff for each pair.
             old_block = old_texts[i1:i2]
             new_block = new_texts[j1:j2]
             for old_t, new_t in zip(old_block, new_block):
-                lvl = _heading_level(new_t)
-                p = doc.add_paragraph()
-                if lvl:
-                    size = 14 if lvl == 1 else 12
-                    bold = True
+                # Numbered paragraphs that have been reordered (e.g., references, recommendations)
+                # should be shown as whole-paragraph delete + insert, not inline word diff.
+                if re.match(r'^\d+\.\s', old_t.strip()) and re.match(r'^\d+\.\s', new_t.strip()):
+                    _add_paragraph_marked(doc, old_t, level=_heading_level(old_t), is_delete=True)
+                    _add_paragraph_marked(doc, new_t, level=_heading_level(new_t), is_insert=True)
+                elif difflib.SequenceMatcher(None, old_t, new_t).quick_ratio() < 0.5:
+                    _add_paragraph_marked(doc, old_t, level=_heading_level(old_t), is_delete=True)
+                    _add_paragraph_marked(doc, new_t, level=_heading_level(new_t), is_insert=True)
                 else:
-                    size = 12
-                    bold = False
-                    p.paragraph_format.first_line_indent = Cm(1.27)
-                for txt, color, strike in _word_diff_runs(old_t, new_t, size=size, bold=bold):
-                    if not txt:
-                        continue
-                    _add_citation_runs(p, txt, color=color, strike=strike, size=size, bold=bold)
-                if lvl:
-                    p.paragraph_format.space_before = Pt(12)
-                    p.paragraph_format.space_after = Pt(6)
+                    lvl = _heading_level(new_t)
+                    p = doc.add_paragraph()
+                    if lvl:
+                        size = 14 if lvl == 1 else 12
+                        bold = True
+                    else:
+                        size = 12
+                        bold = False
+                        p.paragraph_format.first_line_indent = Cm(1.27)
+                    for txt, color, strike in _word_diff_runs(old_t, new_t, size=size, bold=bold):
+                        if not txt:
+                            continue
+                        _add_citation_runs(p, txt, color=color, strike=strike, size=size, bold=bold)
+                    if lvl:
+                        p.paragraph_format.space_before = Pt(12)
+                        p.paragraph_format.space_after = Pt(6)
             # Any leftover paragraphs in old block are deletions, leftovers in new block are insertions
             if len(old_block) > len(new_block):
                 for t in old_block[len(new_block):]:
