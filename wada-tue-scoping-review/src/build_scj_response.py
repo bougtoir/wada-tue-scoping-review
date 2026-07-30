@@ -37,7 +37,7 @@ add_heading_styled(doc, "General Response", 1)
 
 for para in [
     "We thank the Associate Editor and both reviewers for the constructive and detailed feedback. We have revised the manuscript to address every comment. Major structural changes include: (10) adding page numbers; (5) moving figures and their legends to the end of the manuscript (no embedded figures); (16) moving Source Selection from Results to Methods; (25) placing Recommendations for Harmonization within the Discussion; (6) shortening Practical Applications; and (36) removing the separate Conclusion section. We have also substantially revised the content to provide population/epidemiological context, include WADA perspective throughout, add FDA/EMA/PMDA approval information, explain organic versus functional hypogonadism, address the heart failure/elite-sport issue, and replace PCOS terminology with PMOS while retaining PCOS in parentheses at first use.",
-    "All references have been re-verified and renumbered in order of appearance (Vancouver style). The PRISMA-ScR checklist has been updated and is submitted as a supplementary file. A clean revised manuscript, a marked manuscript (changes shown in red/highlight), and this point-by-point response are provided.",
+    "All references have been re-verified and renumbered alphabetically (AMA style) per SCJ guidelines. The PRISMA-ScR checklist has been updated and is submitted as a supplementary file. A clean revised manuscript, a marked manuscript (deletions shown in blue strikethrough, insertions shown in red), and this point-by-point response are provided.",
 ]:
     pr = doc.add_paragraph()
     run = pr.add_run(para)
@@ -196,7 +196,7 @@ comments_r2 = [
     ),
     (
         "Page 13, Line 25: This statement requires a reference to support it.",
-        "The statement has been supported with references (1, 13, 14): Overbye and Wagner (13) document how elite athletes experience TUE access as a barrier; Vernec et al. (14) report variation in TUE prevalence across Olympic Games; and WADA's ISTUE (1) establishes the criteria that NADOs and IFs implement with variable practical requirements.",
+        "The statement has been supported with references (43, 23, 32): Overbye and Wagner (23) document how elite athletes experience TUE access as a barrier; Vernec et al. (32) report variation in TUE prevalence across Olympic Games; and WADA's ISTUE (43) establishes the criteria that NADOs and IFs implement with variable practical requirements.",
     ),
     (
         "Page 14: Mention the major increase in GLP-1 medications in overweight/obese populations without diabetes.",
@@ -216,11 +216,11 @@ comments_r2 = [
     ),
     (
         "Page 19, Line 51: Confirm accuracy of reference (24).",
-        "Reference (24) is Hostrup et al., a systematic review and meta-analysis of beta-2 agonist performance-enhancing effects, which we now use appropriately in the asthma and discussion sections.",
+        "Reference (14) is Hostrup et al., a systematic review and meta-analysis of beta-2 agonist performance-enhancing effects, which we now use appropriately in the asthma and discussion sections.",
     ),
     (
         "Page 19, Line 59: Reference (12) and sentence are misleading.",
-        "We have removed the misleading use of Heuberger & Cohen (12) for beta-2 agonists. The asthma section now uses Hostrup et al. (24) for the performance-enhancement rationale and WADA/Allen references for threshold policy.",
+        "We have removed the misleading use of Heuberger & Cohen (13) for beta-2 agonists. The asthma section now uses Hostrup et al. (14) for the performance-enhancement rationale and WADA/Allen references for threshold policy.",
     ),
     ("Page 21, Line 31: International Federations capitalization.", "Changed to lower case."),
     (
