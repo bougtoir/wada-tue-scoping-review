@@ -62,11 +62,6 @@ def fig1_prisma_flowchart():
                     arrowprops=dict(arrowstyle='->', color=COLORS['dark_gray'],
                                     lw=1.5, connectionstyle='arc3,rad=0'))
 
-    # Title
-    ax.text(5, 13.5, 'Figure 1. PRISMA-ScR Flow Diagram',
-            ha='center', va='center', fontsize=14, fontweight='bold',
-            color=COLORS['wada_blue'])
-
     # IDENTIFICATION
     ax.text(0.5, 12.5, 'IDENTIFICATION', ha='left', va='center',
             fontsize=10, fontweight='bold', color=COLORS['wada_blue'],
@@ -202,7 +197,7 @@ def fig2_gap_heatmap():
         [4, 4, 3, 4, 1],  # Hypogonadism
         [3, 2, 2, 3, 3],  # Glucocorticoids
         [3, 3, 3, 3, 2],  # CV
-        [4, 3, 2, 3, 1],  # PCOS
+        [4, 3, 2, 3, 1],  # PMOS/Fertility
     ])
 
     cmap = matplotlib.colors.LinearSegmentedColormap.from_list(
@@ -226,16 +221,13 @@ def fig2_gap_heatmap():
             ax.text(j, i, risk_labels[val], ha='center', va='center',
                     fontsize=9, fontweight='bold', color=color)
 
-    # Colorbar
+    # Colorbar (legend for gap severity)
     cbar = plt.colorbar(im, ax=ax, fraction=0.03, pad=0.04)
     cbar.set_ticks([0, 1, 2, 3, 4])
     cbar.set_ticklabels(['None', 'Low', 'Medium', 'High', 'Very High'])
     cbar.set_label('Gap Severity', fontsize=10)
 
-    ax.set_title('Figure 2. Clinical-Competition Gap Risk Matrix\n'
-                 'by Disease Area and Assessment Dimension',
-                 fontsize=13, fontweight='bold', color=COLORS['wada_blue'],
-                 pad=60)
+    # No title or caption in the figure image
 
     # Grid
     for i in range(len(diseases) + 1):
@@ -262,7 +254,7 @@ def fig3_timeline_comparison():
         (2023, 10, 'Diabetes TUE\nGuideline v5.1', '#1565C0'),
         (2023, 10, 'CV TUE\nGuideline v4.0', '#1976D2'),
         (2024, 1, 'GLP-1 RA\nMonitoring', '#1565C0'),
-        (2025, 1, 'PMOS/PCOS TUE\nGuideline v2.0', '#1976D2'),
+        (2025, 1, 'PMOS TUE\nGuideline v2.0', '#1976D2'),
         (2025, 12, 'Hypogonadism\nTUE update', '#1565C0'),
         (2026, 1, 'Asthma TUE\nv9.3', '#1976D2'),
         (2026, 1, 'ADHD TUE\nv8.0', '#1565C0'),
@@ -271,7 +263,7 @@ def fig3_timeline_comparison():
     clinical_events = [
         (2018, 6, 'Endocrine Soc.\nTestosterone GL', '#2E7D32'),
         (2022, 1, 'Australian\nADHD GL', '#388E3C'),
-        (2023, 6, 'PMOS/PCOS Intl.\nGL revised', '#2E7D32'),
+        (2023, 6, 'PMOS Intl.\nGL revised', '#2E7D32'),
         (2023, 8, 'TRAVERSE trial\n(TRT safety)', '#388E3C'),
         (2023, 10, 'ESC/ESH\nHypertension GL', '#2E7D32'),
         (2024, 1, 'EAU Sexual/\nReprod. Health', '#388E3C'),
@@ -329,16 +321,15 @@ def fig3_timeline_comparison():
     ax.text(2025.6, 0, 'GAP', ha='left', va='center', fontsize=10,
             fontweight='bold', color=COLORS['gap_red'])
 
-    ax.set_title('Figure 3. Timeline of Clinical Guideline Updates vs. '
-                 'WADA TUE Regulatory Changes (2018-2026)',
-                 fontsize=12, fontweight='bold', color=COLORS['wada_blue'],
-                 pad=15)
+    # No title in the figure image
 
     ax.spines['top'].set_visible(False)
     ax.spines['right'].set_visible(False)
     ax.spines['left'].set_visible(False)
     ax.spines['bottom'].set_visible(False)
     ax.set_yticks([])
+    ax.set_xticks([])
+    ax.tick_params(axis='both', which='both', length=0)
 
     plt.tight_layout()
     plt.savefig(f'{OUTPUT_DIR}/fig3_timeline.png', dpi=300,
@@ -372,11 +363,7 @@ def fig4_conceptual_framework():
         ax.annotate('', xy=(x2, y2), xytext=(x1, y1),
                     arrowprops=dict(arrowstyle=style, color=color, lw=lw))
 
-    # Title
-    ax.text(5, 9.7, 'Figure 4. Conceptual Framework:\n'
-            'The Clinical-Competition Gap in Anti-Doping',
-            ha='center', va='center', fontsize=13, fontweight='bold',
-            color=COLORS['wada_blue'])
+    # No title in the figure image
 
     # LEFT: Clinical Practice
     draw_rounded_box(0.3, 7.5, 3.5, 1.2,
@@ -484,16 +471,12 @@ def fig5_disease_summary_bar():
 
     ax.set_xlabel('Disease Area', fontsize=11, fontweight='bold')
     ax.set_ylabel('Gap Severity Score (0-4)', fontsize=11, fontweight='bold')
-    ax.set_title('Figure 5. Clinical-Competition Gap Severity by Disease Area\n'
-                 'and Assessment Dimension',
-                 fontsize=13, fontweight='bold', color=COLORS['wada_blue'])
-
     ax.set_xticks(x)
     ax.set_xticklabels(diseases, fontsize=9, rotation=30, ha='right')
     ax.set_yticks([0, 1, 2, 3, 4])
     ax.set_yticklabels(['None', 'Low', 'Medium', 'High', 'Very High'], fontsize=9)
     ax.set_ylim(0, 4.8)
-    ax.legend(loc='upper right', fontsize=8, framealpha=0.9)
+    # No title, legend, or caption in the figure image
     ax.spines['top'].set_visible(False)
     ax.spines['right'].set_visible(False)
     ax.grid(axis='y', alpha=0.3)

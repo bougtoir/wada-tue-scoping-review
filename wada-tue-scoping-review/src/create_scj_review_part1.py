@@ -7,6 +7,7 @@ from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.oxml.ns import qn
 from docx.oxml import OxmlElement
 import os
+import re
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUTPUT_DIR = os.path.join(BASE_DIR, 'manuscripts')
@@ -66,17 +67,44 @@ def add_heading_styled(doc, text, level=1):
     p.paragraph_format.space_after = Pt(6)
     return p
 
+CITE_RE = re.compile(r'(\(\s*\d{1,3}(?:\s*(?:,|-|–|—)\s*\d{1,3})*\s*\))')
+NUM_RE = re.compile(r'\d+')
+
+
+def _add_runs(p, text, font_size, **kwargs):
+    """Add text to paragraph, rendering citation numbers as font-based superscript."""
+    def _run(s):
+        r = p.add_run(s)
+        r.font.size = Pt(font_size)
+        for k, v in kwargs.items():
+            setattr(r.font, k, v)
+        return r
+
+    for part in CITE_RE.split(text):
+        if CITE_RE.fullmatch(part):
+            # Citation group: normal parentheses, superscript numbers
+            _run('(')
+            inner = part[1:-1]
+            for token in re.findall(r'\d+|\s*[,–—-]\s*', inner):
+                if NUM_RE.fullmatch(token.strip()):
+                    r = _run(token.strip())
+                    r.font.superscript = True
+                else:
+                    _run(token)
+            _run(')')
+        else:
+            _run(part)
+
+
 def add_body(doc, text):
     p = doc.add_paragraph()
     p.paragraph_format.first_line_indent = Cm(1.27)
-    run = p.add_run(text)
-    run.font.size = Pt(12)
+    _add_runs(p, text, 12)
     return p
 
 def add_body_ni(doc, text):
     p = doc.add_paragraph()
-    run = p.add_run(text)
-    run.font.size = Pt(12)
+    _add_runs(p, text, 12)
     return p
 
 def add_figure(doc, filename, caption):
@@ -96,9 +124,7 @@ def add_figure_legend(doc, caption):
     p = doc.add_paragraph()
     p.paragraph_format.space_before = Pt(14)
     p.paragraph_format.line_spacing = 1.5
-    run = p.add_run(caption)
-    run.font.size = Pt(10)
-    run.italic = True
+    _add_runs(p, caption, 10, italic=True)
     p.alignment = WD_ALIGN_PARAGRAPH.CENTER
     doc.add_paragraph()
 
